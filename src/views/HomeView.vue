@@ -3,8 +3,30 @@
     <!-- Hero Section -->
     <HeroSection @open-demo-modal="isDemoModalOpen = true" />
 
-    <!-- Interactive Live Sandbox Scheduler Demo -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-16 relative z-10">
+    <!-- 1. Real System Live Mockup (Style C - Modern SaaS Clean) -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-10 mb-20 relative z-20">
+      <div class="text-center mb-4">
+        <span class="text-xs font-bold text-slate-500 bg-white/90 backdrop-blur-xs px-4 py-1.5 rounded-full border border-slate-200 shadow-xs inline-flex items-center space-x-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>即時系統介面互動展示（點擊上方分頁切換功能畫面）</span>
+        </span>
+      </div>
+      <AppLiveMockupPreview />
+    </section>
+
+    <!-- 2. Interactive Live Sandbox Scheduler Engine -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 relative z-10">
+      <div class="text-center mb-6 space-y-2">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+          Interactive Sandbox
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          親自體驗多約束排程演算法的運算威力
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500">
+          自由調整人數、項目與性別偏好，演算法即時以毫秒級速度計算最佳技師與空間配置
+        </p>
+      </div>
       <InteractiveSchedulerDemo />
     </section>
 
@@ -61,6 +83,7 @@
 <script setup>
 import { ref } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
+import AppLiveMockupPreview from '../components/AppLiveMockupPreview.vue'
 import InteractiveSchedulerDemo from '../components/InteractiveSchedulerDemo.vue'
 import FeatureShowcase from '../components/FeatureShowcase.vue'
 import SolutionsMatrixSection from '../components/SolutionsMatrixSection.vue'

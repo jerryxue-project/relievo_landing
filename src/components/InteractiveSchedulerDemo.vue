@@ -1,40 +1,44 @@
 <template>
-  <div class="bg-slate-900 rounded-3xl p-6 sm:p-10 border border-slate-800 shadow-2xl text-white relative overflow-hidden">
-    <!-- Top Terminal bar -->
-    <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+  <div class="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-xl text-slate-900 relative overflow-hidden">
+    <!-- Top Solver Status Bar -->
+    <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
       <div class="flex items-center space-x-2">
-        <span class="w-3 h-3 rounded-full bg-rose-500"></span>
-        <span class="w-3 h-3 rounded-full bg-amber-500"></span>
-        <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
-        <span class="text-xs font-mono text-slate-400 ml-2">Relievo Auto-Scheduling Engine · 智慧排程演算法沙盒模擬</span>
+        <div class="w-8 h-8 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-600 font-bold">
+          <Cpu class="w-4 h-4" />
+        </div>
+        <div>
+          <span class="text-xs font-bold text-slate-900 block">Relievo 智慧排程引擎 · 即時多約束沙盒模擬</span>
+          <span class="text-[10px] text-slate-500">同步計算：技師技能 + 性別偏好 + 空間床椅 + 雙輪牌 FIFO</span>
+        </div>
       </div>
-      <span class="text-[11px] font-mono text-brand-400 bg-brand-950/80 px-2.5 py-1 rounded-full border border-brand-800">
-        即時演算中 (Live Solver)
+      <span class="text-[11px] font-mono text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-200 font-bold flex items-center space-x-1">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>演算法在線 (Live Solver)</span>
       </span>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
       <!-- Left: Interactive Controls -->
-      <div class="lg:col-span-5 space-y-4">
+      <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-5 border border-slate-200 space-y-4">
         <div>
-          <h3 class="text-base font-bold text-white flex items-center space-x-2">
-            <SlidersHorizontal class="w-4 h-4 text-brand-400" />
+          <h3 class="text-sm font-bold text-slate-900 flex items-center space-x-2">
+            <SlidersHorizontal class="w-4 h-4 text-brand-600" />
             <span>模擬門市進單條件</span>
           </h3>
-          <p class="text-xs text-slate-400 mt-0.5">點選下方條件，右側演算法將毫秒級運算多資源配置</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">點選下方條件，右側演算法將毫秒級計算最佳配置</p>
         </div>
 
         <!-- Guest count tabs -->
-        <div class="space-y-1.5">
-          <label class="text-xs font-semibold text-slate-300">同行顧客人數</label>
+        <div class="space-y-1">
+          <label class="text-xs font-bold text-slate-700">同行顧客人數</label>
           <div class="grid grid-cols-3 gap-2">
             <button
               v-for="cnt in [1, 2, 3]"
               :key="cnt"
               type="button"
               @click="setGuestCount(cnt)"
-              class="py-2 rounded-xl text-xs font-bold transition-all border cursor-pointer"
-              :class="guestCount === cnt ? 'bg-brand-600 border-brand-500 text-white shadow-md shadow-brand-600/30' : 'bg-slate-800/80 border-slate-700 text-slate-400 hover:bg-slate-800'"
+              class="py-2 rounded-xl text-xs font-bold transition-all border cursor-pointer text-center"
+              :class="guestCount === cnt ? 'bg-brand-600 border-brand-600 text-white shadow-xs' : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-100'"
             >
               {{ cnt }} 位顧客
             </button>
@@ -42,46 +46,49 @@
         </div>
 
         <!-- Service Item Picker -->
-        <div class="space-y-1.5">
-          <label class="text-xs font-semibold text-slate-300">選擇按摩項目</label>
+        <div class="space-y-1">
+          <label class="text-xs font-bold text-slate-700">選擇按摩項目</label>
           <select
             v-model="selectedServiceKey"
             @change="runSimulation"
-            class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-brand-500"
+            class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs text-slate-900 font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500"
           >
-            <option value="FOOT_45">經典腳底按摩 (45分鐘) · 單一設施需求</option>
+            <option value="FOOT_45">經典腳底按摩 (45分鐘) · 腳底沙發椅</option>
             <option value="BODY_60">全身經絡指壓 (60分鐘) · 包廂指壓床</option>
-            <option value="COMBO_90">招牌超值套餐 (腳30分+身60分) · 複合跨空間轉移 🌟</option>
-            <option value="OIL_90">頂級精油深層油推 (90分鐘) · 專屬精油包廂</option>
+            <option value="COMBO_90">招牌超值套餐 (腳30分+身60分) · 跨空間分段轉移 🌟</option>
+            <option value="OIL_90">頂級精油深層油推 (90分鐘) · VIP獨立包廂</option>
           </select>
         </div>
 
         <!-- Preference Picker -->
-        <div class="space-y-1.5">
-          <label class="text-xs font-semibold text-slate-300">師傅指派偏好</label>
+        <div class="space-y-1">
+          <label class="text-xs font-bold text-slate-700">師傅指派偏好</label>
           <select
             v-model="selectedPreference"
             @change="runSimulation"
-            class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-brand-500"
+            class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs text-slate-900 font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500"
           >
-            <option value="QUEUE">公平輪牌派工 (依當前隊列第一順位排班)</option>
-            <option value="GENDER_F">指定女師傅 (自動過濾技能與性別)</option>
-            <option value="GENDER_M">指定男師傅</option>
-            <option value="SPECIFIED">勞點指定 08號師傅 (檢測特定技師時段)</option>
+            <option value="QUEUE">公平輪牌派工 (依當前隊列第 1 順位排班)</option>
+            <option value="GENDER_F">指定女師傅 (自動過濾技能與女性技師)</option>
+            <option value="GENDER_M">指定男師傅 (自動過濾技能與男性技師)</option>
+            <option value="SPECIFIED">勞點指定 08號佳玲師傅 (精確時段重疊檢驗)</option>
           </select>
         </div>
 
-        <!-- Start Time Picker -->
-        <div class="space-y-1.5">
-          <label class="text-xs font-semibold text-slate-300">預約開始時間 (15分鐘間隔)</label>
+        <!-- Start Time Picker with 15-Minute Segments -->
+        <div class="space-y-1">
+          <div class="flex items-center justify-between">
+            <label class="text-xs font-bold text-slate-700">開始時間 (15 分鐘精確區隔)</label>
+            <span class="text-xs font-mono font-bold text-brand-700">{{ selectedTime }}</span>
+          </div>
           <div class="grid grid-cols-4 gap-1.5">
             <button
               v-for="time in ['14:00', '14:15', '14:30', '14:45']"
               :key="time"
               type="button"
               @click="setTime(time)"
-              class="py-2 rounded-xl text-xs font-mono font-bold transition-all border cursor-pointer"
-              :class="selectedTime === time ? 'bg-brand-600 border-brand-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'"
+              class="py-2 rounded-xl text-xs font-mono font-bold transition-all border cursor-pointer text-center"
+              :class="selectedTime === time ? 'bg-brand-600 border-brand-600 text-white shadow-xs' : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-100'"
             >
               {{ time }}
             </button>
@@ -90,23 +97,23 @@
 
         <button
           @click="runSimulation"
-          class="w-full py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 text-xs font-bold text-white shadow-md shadow-brand-600/30 flex items-center justify-center space-x-2 cursor-pointer hover:opacity-95"
+          class="w-full py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-xs font-bold text-white shadow-md shadow-brand-600/20 flex items-center justify-center space-x-2 cursor-pointer transition-colors"
         >
           <Sparkles class="w-3.5 h-3.5" />
           <span>觸發演算法重新計算</span>
         </button>
       </div>
 
-      <!-- Right: Live Allocation Visualizer -->
-      <div class="lg:col-span-7 bg-slate-950/70 rounded-2xl p-5 border border-slate-800 flex flex-col justify-between space-y-4">
+      <!-- Right: Live Allocation Visualizer (Style C Clean Output) -->
+      <div class="lg:col-span-7 bg-white rounded-2xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between space-y-4">
         <div>
-          <div class="flex items-center justify-between pb-3 border-b border-slate-800">
-            <span class="text-xs font-bold text-emerald-400 flex items-center space-x-1.5">
-              <CheckCircle2 class="w-4 h-4 text-emerald-400" />
-              <span>多約束滿足求解成功 (演算耗時 12ms)</span>
+          <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+            <span class="text-xs font-bold text-emerald-700 flex items-center space-x-1.5">
+              <CheckCircle2 class="w-4 h-4 text-emerald-600" />
+              <span>多約束滿足求解成功 (運算耗時 8ms)</span>
             </span>
-            <span class="text-[11px] font-mono text-slate-400">
-              預計結束：{{ simulationResult.endTime }}
+            <span class="text-xs font-mono font-bold text-slate-700 bg-slate-100 px-2 py-0.5 rounded">
+              預計完工：{{ simulationResult.endTime }}
             </span>
           </div>
 
@@ -115,47 +122,47 @@
             <div
               v-for="(res, idx) in simulationResult.guests"
               :key="idx"
-              class="bg-slate-900/90 rounded-xl p-3.5 border border-slate-800 space-y-2.5"
+              class="bg-slate-50/70 rounded-xl p-3.5 border border-slate-200 space-y-2.5"
             >
               <div class="flex items-center justify-between text-xs">
-                <span class="font-bold text-white flex items-center space-x-1.5">
-                  <span class="w-4 h-4 rounded-full bg-brand-600 text-white flex items-center justify-center text-[10px] font-bold">{{ idx + 1 }}</span>
-                  <span>顧客 {{ idx + 1 }}：{{ res.serviceName }}</span>
+                <span class="font-bold text-slate-900 flex items-center space-x-1.5">
+                  <span class="w-5 h-5 rounded-full bg-brand-600 text-white flex items-center justify-center text-[10px] font-bold">{{ idx + 1 }}</span>
+                  <span>第 {{ idx + 1 }} 位顧客：{{ res.serviceName }}</span>
                 </span>
-                <span class="text-brand-400 font-mono font-bold">${{ res.price }}</span>
+                <span class="text-brand-700 font-mono font-bold text-sm">${{ res.price }}</span>
               </div>
 
               <!-- Masseur & Facility Assignment -->
-              <div class="grid grid-cols-2 gap-2 text-xs bg-slate-950/80 p-2.5 rounded-lg border border-slate-800/80">
+              <div class="grid grid-cols-2 gap-2 text-xs bg-white p-3 rounded-lg border border-slate-200 shadow-xs">
                 <div>
-                  <span class="text-slate-500 block text-[11px]">匹配師傅 (輪牌派工)</span>
-                  <span class="font-bold text-white flex items-center space-x-1 mt-0.5">
+                  <span class="text-slate-500 block text-[11px] font-medium">匹配師傅 (輪牌公平派工)</span>
+                  <span class="font-bold text-slate-900 flex items-center space-x-1 mt-0.5">
                     <span>{{ res.masseurName }}</span>
-                    <span class="text-[10px] px-1 bg-brand-900/80 text-brand-300 rounded font-normal">{{ res.masseurGender }}</span>
+                    <span class="text-[10px] px-1.5 py-0.2 bg-brand-50 text-brand-700 border border-brand-200 rounded font-bold">{{ res.masseurGender }}</span>
                   </span>
                 </div>
                 <div>
-                  <span class="text-slate-500 block text-[11px]">排定空間與設施</span>
-                  <span class="font-bold text-amber-300 mt-0.5 block">{{ res.facilityName }}</span>
+                  <span class="text-slate-500 block text-[11px] font-medium">排定空間設施</span>
+                  <span class="font-bold text-brand-700 mt-0.5 block">{{ res.facilityName }}</span>
                 </div>
               </div>
 
               <!-- Multi-stage Tag for combo -->
-              <div v-if="res.stages" class="text-[11px] text-teal-300 bg-teal-950/60 p-2 rounded-lg border border-teal-800/50 flex items-center space-x-1">
-                <span>🔄 複合分段轉移：</span>
-                <span class="font-mono">{{ res.stages }}</span>
+              <div v-if="res.stages" class="text-[11px] text-teal-800 bg-teal-50/80 p-2.5 rounded-lg border border-teal-200 flex items-center space-x-1 font-medium">
+                <span class="font-bold">🔄 跨空間分段轉移：</span>
+                <span class="font-mono text-teal-900">{{ res.stages }}</span>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Real-time Queue log -->
-        <div class="bg-slate-900 p-3 rounded-xl border border-slate-800 text-[11px] font-mono text-slate-400 flex items-center justify-between">
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-xs text-slate-600 flex items-center justify-between">
           <div class="flex items-center space-x-2">
-            <Users2 class="w-3.5 h-3.5 text-brand-400" />
-            <span>輪牌狀態：服務完畢自動歸入隊尾 (FIFO 公平演算法)</span>
+            <Users2 class="w-4 h-4 text-brand-600" />
+            <span>輪牌機制：服務完畢自動歸入隊尾 (FIFO 公平演算法)</span>
           </div>
-          <span class="text-emerald-400 font-bold">100% 透明無爭議</span>
+          <span class="text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">100% 透明無爭議</span>
         </div>
       </div>
     </div>
@@ -164,7 +171,7 @@
 
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
-import { SlidersHorizontal, Sparkles, CheckCircle2, Users2 } from 'lucide-vue-next'
+import { Cpu, SlidersHorizontal, Sparkles, CheckCircle2, Users2 } from 'lucide-vue-next'
 
 const guestCount = ref(2)
 const selectedServiceKey = ref('COMBO_90')
@@ -178,12 +185,12 @@ const simulationResult = reactive({
 
 const servicesDb = {
   FOOT_45: { name: '經典腳底按摩 (45分)', price: 800, duration: 45, facility: '腳底沙發椅 #03' },
-  BODY_60: { name: '全身經絡指壓 (60分)', price: 1200, duration: 60, facility: '包廂指壓床 #02 (單人)' },
+  BODY_60: { name: '全身經絡指壓 (60分)', price: 1200, duration: 60, facility: '單人包廂指壓床 #02' },
   COMBO_90: {
     name: '招牌超值套餐 (90分)',
     price: 1700,
     duration: 90,
-    facility: '椅 #01 → 床 #03',
+    facility: '沙發椅 #01 → 指壓床 #03',
     stages: '前段30分 腳底椅#01 → 後段60分 指壓床#03 (同一技師無縫轉移)'
   },
   OIL_90: { name: '頂級精油油推 (90分)', price: 2100, duration: 90, facility: 'VIP 獨立精油包廂 #01' }

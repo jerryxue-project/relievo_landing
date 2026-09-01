@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-indigo-600;
+}
+
+.glow-effect {
+  box-shadow: 0 0 50px -10px rgba(79, 70, 229, 0.2);
+}

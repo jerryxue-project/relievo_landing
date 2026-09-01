@@ -184,16 +184,34 @@ const simulationResult = reactive({
 })
 
 const servicesDb = {
-  FOOT_45: { name: '經典腳底按摩 (45分)', price: 800, duration: 45, facility: '腳底沙發椅 #03' },
-  BODY_60: { name: '全身經絡指壓 (60分)', price: 1200, duration: 60, facility: '單人包廂指壓床 #02' },
+  FOOT_45: {
+    name: '經典腳底按摩 (45分)',
+    price: 800,
+    duration: 45,
+    getFacility: (i) => `腳底沙發椅 #0${i + 1}`,
+    getStages: () => null
+  },
+  BODY_60: {
+    name: '全身經絡指壓 (60分)',
+    price: 1200,
+    duration: 60,
+    getFacility: (i) => `單人包廂指壓床 #0${i + 1}`,
+    getStages: () => null
+  },
   COMBO_90: {
     name: '招牌超值套餐 (90分)',
     price: 1700,
     duration: 90,
-    facility: '沙發椅 #01 → 指壓床 #03',
-    stages: '前段30分 腳底椅#01 → 後段60分 指壓床#03 (同一技師無縫轉移)'
+    getFacility: (i) => `沙發椅 #0${i + 1} → 指壓床 #0${i + 1}`,
+    getStages: (i) => `前段30分 腳底椅#0${i + 1} → 後段60分 指壓床#0${i + 1} (同一技師無縫轉移)`
   },
-  OIL_90: { name: '頂級精油油推 (90分)', price: 2100, duration: 90, facility: 'VIP 獨立精油包廂 #01' }
+  OIL_90: {
+    name: '頂級精油油推 (90分)',
+    price: 2100,
+    duration: 90,
+    getFacility: (i) => `VIP 獨立精油包廂 #0${i + 1}`,
+    getStages: () => null
+  }
 }
 
 const masseursPool = [
@@ -201,6 +219,18 @@ const masseursPool = [
   { name: '05號 阿豪師傅', gender: '男師' },
   { name: '02號 淑芬師傅', gender: '女師' },
   { name: '11號 文傑師傅', gender: '男師' }
+]
+
+const femaleMasseursPool = [
+  { name: '08號 佳玲師傅', gender: '女師' },
+  { name: '02號 淑芬師傅', gender: '女師' },
+  { name: '06號 雅婷師傅', gender: '女師' }
+]
+
+const maleMasseursPool = [
+  { name: '05號 阿豪師傅', gender: '男師' },
+  { name: '11號 文傑師傅', gender: '男師' },
+  { name: '03號 志明師傅', gender: '男師' }
 ]
 
 const setGuestCount = (cnt) => {
@@ -225,11 +255,15 @@ const runSimulation = () => {
   for (let i = 0; i < guestCount.value; i++) {
     let mObj = masseursPool[i % masseursPool.length]
     if (selectedPreference.value === 'GENDER_F') {
-      mObj = { name: `0${i * 2 + 2}號 雅婷師傅`, gender: '女師' }
+      mObj = femaleMasseursPool[i % femaleMasseursPool.length]
     } else if (selectedPreference.value === 'GENDER_M') {
-      mObj = { name: `0${i * 2 + 1}號 志明師傅`, gender: '男師' }
+      mObj = maleMasseursPool[i % maleMasseursPool.length]
     } else if (selectedPreference.value === 'SPECIFIED') {
-      mObj = { name: '08號 佳玲師傅 (勞點指定)', gender: '女師' }
+      if (i === 0) {
+        mObj = { name: '08號 佳玲師傅 (指定勞點)', gender: '女師' }
+      } else {
+        mObj = masseursPool[(i + 1) % masseursPool.length]
+      }
     }
 
     list.push({
@@ -237,8 +271,8 @@ const runSimulation = () => {
       price: srv.price,
       masseurName: mObj.name,
       masseurGender: mObj.gender,
-      facilityName: srv.facility.replace('#03', `#0${i + 2}`).replace('#01', `#0${i + 1}`).replace('#02', `#0${i + 2}`),
-      stages: srv.stages
+      facilityName: srv.getFacility(i),
+      stages: srv.getStages(i)
     })
   }
 

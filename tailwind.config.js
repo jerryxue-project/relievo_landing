@@ -1,3 +1,17 @@
+const mutedIris = {
+  50: '#f5f6fc',
+  100: '#ebeef9',
+  200: '#d7dcf4',
+  300: '#b7bfec',
+  400: '#919ce0',
+  500: '#6b76ce',
+  600: '#5560bd',
+  700: '#454e9e',
+  800: '#3b427f',
+  900: '#333866',
+  950: '#1f2242',
+}
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,19 +21,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: '#f5f6fc',
-          100: '#ebeef9',
-          200: '#d7dcf4',
-          300: '#b7bfec',
-          400: '#919ce0',
-          500: '#6b76ce',
-          600: '#5560bd',
-          700: '#454e9e',
-          800: '#3b427f',
-          900: '#333866',
-          950: '#1f2242',
-        },
+        brand: mutedIris,
+        indigo: mutedIris,
         slate: {
           850: '#152033',
         }

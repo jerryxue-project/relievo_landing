@@ -96,7 +96,6 @@
                   <option value="SPA">按摩養生 / 足體舒壓</option>
                   <option value="BEAUTY">美容美甲 / 美睫沙龍</option>
                   <option value="FITNESS">瑜珈健身 / 運動工作室</option>
-                  <option value="CLINIC">物理治療 / 復健診所</option>
                   <option value="OTHER">其他預約型門市</option>
                 </select>
               </div>

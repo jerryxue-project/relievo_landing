@@ -43,11 +43,6 @@
               </router-link>
             </li>
             <li>
-              <router-link to="/solutions/clinic" class="text-slate-400 hover:text-white">
-                🏥 物理治療與自費門診
-              </router-link>
-            </li>
-            <li>
               <router-link to="/solutions" class="text-brand-400 hover:underline pt-1 inline-block">
                 全部矩陣規劃 &rarr;
               </router-link>

@@ -12,12 +12,9 @@ Relievo 官方行銷宣傳官網與多產業 SaaS 解決方案矩陣中心。
    - 效益計算機 (ROI Calculator) 與真實客戶評價
 
 2. **多產業擴充矩陣 (Multi-System Solutions Matrix)**：
-   - 💆 **Relievo Spa**（按摩養生館智慧排程 - *線上版*）
-   - 💅 **Relievo Beauty**（美容美甲美睫沙龍 - *即將推出*）
-   - 🧘 **Relievo Studio**（瑜珈健身團課私教 - *規劃中*）
-   - 🐾 **Relievo Pet**（寵物美容與安親排程 - *規劃中*）
-   - 🏥 **Relievo Clinic**（物理治療與自費門診 - *規劃中*）
-   - ☕ **Relievo POS**（智慧收銀與會員系統 - *規劃中*）
+   - 💆 **Relievo Spa**（按摩養生館智慧排程 - *旗艦版已上線*）
+   - 💅 **Relievo Beauty**（美容美甲美睫沙龍 - *即將推出 / 早鳥預約*）
+   - 🧘 **Relievo Studio**（瑜珈健身團課私教 - *擴充規劃中*）
 
 3. **名單捕獲與表單驗證 (Lead Generation)**：
    - 支援 14 天免費試用與專人 1 對 1 線上演示預約表單，具備繁體中文與台灣手機號碼格式驗證。

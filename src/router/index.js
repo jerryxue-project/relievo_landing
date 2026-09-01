@@ -4,7 +4,6 @@ import SolutionsView from '../views/SolutionsView.vue'
 import SpaSolutionView from '../views/SpaSolutionView.vue'
 import BeautySolutionView from '../views/BeautySolutionView.vue'
 import FitnessSolutionView from '../views/FitnessSolutionView.vue'
-import ClinicSolutionView from '../views/ClinicSolutionView.vue'
 import PricingView from '../views/PricingView.vue'
 import ContactView from '../views/ContactView.vue'
 
@@ -38,12 +37,6 @@ const routes = [
     name: 'FitnessSolution',
     component: FitnessSolutionView,
     meta: { title: '瑜珈健身與團課私教排程系統 (規劃中) - Relievo Fitness' }
-  },
-  {
-    path: '/solutions/clinic',
-    name: 'ClinicSolution',
-    component: ClinicSolutionView,
-    meta: { title: '物理治療與自費診所預約系統 (規劃中) - Relievo Clinic' }
   },
   {
     path: '/pricing',

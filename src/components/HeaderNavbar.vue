@@ -108,28 +108,12 @@
                   </div>
                 </router-link>
 
-                <router-link
-                  to="/solutions/clinic"
-                  class="flex items-start space-x-3 p-2.5 rounded-xl hover:bg-brand-50/60 transition-colors group/item"
-                >
-                  <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0 font-bold">
-                    🏥
-                  </div>
-                  <div>
-                    <div class="flex items-center space-x-1.5">
-                      <span class="text-xs font-bold text-slate-900 group-hover/item:text-brand-600">物理治療與自費門診</span>
-                      <span class="text-[9px] px-1.5 py-0.2 rounded-full bg-slate-100 text-slate-600 font-medium">規劃中</span>
-                    </div>
-                    <p class="text-[11px] text-slate-500 mt-0.5">治療師時段預約、專屬診療室控管</p>
-                  </div>
-                </router-link>
-
                 <div class="pt-2 border-t border-slate-100">
                   <router-link
                     to="/solutions"
                     class="block text-center text-xs font-bold text-brand-600 hover:text-brand-700 py-1"
                   >
-                    查看全部 6 大產業矩陣 &rarr;
+                    查看完整解決方案矩陣 &rarr;
                   </router-link>
                 </div>
               </div>
@@ -231,13 +215,6 @@
             class="flex items-center space-x-2 px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:bg-brand-50"
           >
             <span>🧘 瑜珈健身團課私教</span>
-          </router-link>
-          <router-link
-            to="/solutions/clinic"
-            @click="isMobileMenuOpen = false"
-            class="flex items-center space-x-2 px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:bg-brand-50"
-          >
-            <span>🏥 物理治療與自費診所</span>
           </router-link>
         </div>
 

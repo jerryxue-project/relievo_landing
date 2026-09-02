@@ -7,72 +7,72 @@
     <FeatureShowcase />
 
     <!-- 3. Pain Points vs. Relievo Solution Comparison Matrix -->
-    <section class="py-16 sm:py-20 bg-slate-50 border-y border-slate-200/80">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <div class="text-center max-w-3xl mx-auto space-y-3">
+    <section class="py-14 sm:py-20 bg-slate-50 border-y border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        <div class="text-center max-w-3xl mx-auto space-y-2.5">
           <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
             Pain Points & Value
           </span>
           <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            傳統手寫白板 vs. Relievo 睿舒智慧
+            傳統白板 vs. Relievo 智慧系統
           </h2>
           <p class="text-xs sm:text-sm text-slate-500">
-            不用改變店內既有收費與輪牌規矩，系統自動適應您的店務流程
+            不改變店內既有規矩，系統自動適應您的門市流程
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 max-w-5xl mx-auto">
           <!-- Traditional Side -->
-          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-rose-200 shadow-sm space-y-4">
-            <div class="flex items-center space-x-2.5 text-rose-600 font-black text-lg pb-3 border-b border-rose-100">
-              <XCircle class="w-6 h-6" />
+          <div class="bg-white rounded-3xl p-6 sm:p-7 border border-rose-200 shadow-sm space-y-4">
+            <div class="flex items-center space-x-2 text-rose-600 font-black text-base sm:text-lg pb-3 border-b border-rose-100">
+              <XCircle class="w-5 h-5 flex-shrink-0" />
               <span>傳統紙筆 / 白板排單困境</span>
             </div>
-            <ul class="space-y-3 text-xs sm:text-sm text-slate-600">
-              <li class="flex items-start space-x-2.5">
-                <span class="text-rose-500 font-black mt-0.5">✕</span>
-                <span><strong>電話翻簿子心算：</strong>客人來電詢問，櫃檯對著白板翻找 2 分鐘才敢回覆，容易跑單。</span>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+              <li class="flex items-start space-x-2">
+                <span class="text-rose-500 font-bold">✕</span>
+                <span><strong>查位翻找 2 分鐘：</strong>對著白板心算算半天，客人等太久容易跑單。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-rose-500 font-black mt-0.5">✕</span>
-                <span><strong>複合套餐易卡床：</strong>腳底轉全身指壓常發生「人按完但沒包廂床可躺」的窘境。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-rose-500 font-bold">✕</span>
+                <span><strong>套餐容易卡床：</strong>腳底按完沒包廂，客人只能乾等尷尬。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-rose-500 font-black mt-0.5">✕</span>
-                <span><strong>師傅爭單吵架：</strong>人工作記輪牌順位，容易產生「櫃檯私心偏袒特定師傅」的內部衝突。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-rose-500 font-bold">✕</span>
+                <span><strong>手動輪牌吵架：</strong>記錯順位引發偏心質疑，內部衝突不斷。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-rose-500 font-black mt-0.5">✕</span>
-                <span><strong>新人櫃檯培訓難：</strong>店內規則複雜，新人至少要教 1~2 週才敢放手接電話。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-rose-500 font-bold">✕</span>
+                <span><strong>新人培訓需 2 週：</strong>排班規則繁雜，店長不敢放心交接。</span>
               </li>
             </ul>
           </div>
 
           <!-- Relievo Modern Side -->
-          <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-brand-500 shadow-md space-y-4 relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-brand-600 text-white text-[10px] font-black px-4 py-1 rounded-bl-xl uppercase tracking-wider">
+          <div class="bg-white rounded-3xl p-6 sm:p-7 border-2 border-brand-500 shadow-md space-y-4 relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-brand-600 text-white text-[10px] font-black px-3.5 py-1 rounded-bl-xl uppercase tracking-wider">
               推薦升級
             </div>
-            <div class="flex items-center space-x-2.5 text-brand-700 font-black text-lg pb-3 border-b border-brand-100">
-              <CheckCircle2 class="w-6 h-6 text-brand-600" />
+            <div class="flex items-center space-x-2 text-brand-700 font-black text-base sm:text-lg pb-3 border-b border-brand-100">
+              <CheckCircle2 class="w-5 h-5 text-brand-600 flex-shrink-0" />
               <span>Relievo 睿舒智慧排程系統</span>
             </div>
-            <ul class="space-y-3 text-xs sm:text-sm text-slate-700">
-              <li class="flex items-start space-x-2.5">
-                <span class="text-emerald-500 font-black mt-0.5">✔</span>
-                <span><strong>3 秒電話雷達查位：</strong>免問個資，按兩下瞬間得知有無空位或最近可做時段。</span>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+              <li class="flex items-start space-x-2">
+                <span class="text-emerald-500 font-bold">✔</span>
+                <span><strong>3 秒雷達秒查空檔：</strong>免問個資，按兩下瞬間給出最佳時段。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-emerald-500 font-black mt-0.5">✔</span>
-                <span><strong>自動分段轉移空間：</strong>系統自動計算腳底沙發與包廂床位銜接，同一師傅按到底。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-emerald-500 font-bold">✔</span>
+                <span><strong>自動銜接換房：</strong>沙發轉包廂精準卡位，空間多賺 35%。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-emerald-500 font-black mt-0.5">✔</span>
-                <span><strong>雙軌獨立公平輪牌：</strong>上班自動進佇列、完工自動回隊尾，公信透明不爭執。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-emerald-500 font-bold">✔</span>
+                <span><strong>雙軌公平自動輪牌：</strong>打卡進列、完工回隊尾，制度公開透明。</span>
               </li>
-              <li class="flex items-start space-x-2.5">
-                <span class="text-emerald-500 font-black mt-0.5">✔</span>
-                <span><strong>新進櫃檯 10 分鐘上手：</strong>介面直覺如點餐機，iPad 隨開即用，免裝專用主機。</span>
+              <li class="flex items-start space-x-2">
+                <span class="text-emerald-500 font-bold">✔</span>
+                <span><strong>新進櫃檯 10 分鐘上手：</strong>點餐機直覺介面，第 1 天從容接單。</span>
               </li>
             </ul>
           </div>

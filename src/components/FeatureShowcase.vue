@@ -4,13 +4,13 @@
       <!-- Section Header -->
       <div class="text-center max-w-3xl mx-auto space-y-4">
         <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
-          Why Relievo
+          Why Relievo · 零學習門檻
         </span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
           為什麼養生館老闆與櫃檯，<br /><span class="text-brand-600">用過就回不去了？</span>
         </h2>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-          4 大看家本領，徹底解決店裡「心算排班累、師傅爭單吵、套餐換床卡」的三大痛點。
+          徹底告別長達 2 週的新人培訓！4 大看家本領，把排單、輪牌、空間換房化繁為簡，前台人員流動再也不用擔心店務大亂。
         </p>
       </div>
 
@@ -22,9 +22,12 @@
             <Cpu class="w-6 h-6" />
           </div>
           <div class="space-y-2">
-            <h3 class="text-xl font-bold text-slate-900">1. ⚡ 1 秒秒排！客人再多也不撞單</h3>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-xl font-bold text-slate-900">1. ⚡ 1 秒秒排！免背規則不撞單</h3>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">新手免心算</span>
+            </div>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              電話一響，客人說「我們 3 個人要做套餐」，系統瞬間自動核對所有床位、包廂與師傅時間，1 秒排好最順方案，完全不需要櫃檯在電話裡心算翻簿子。
+              電話一響，客人說「我們 3 個人要做套餐」，系統瞬間自動核對所有床位、包廂與師傅時間，1 秒排好最順方案。新手櫃檯免背師傅技能與房間規則，照著螢幕點選即排。
             </p>
           </div>
           <!-- Visual snippet -->
@@ -52,9 +55,12 @@
             <Users2 class="w-6 h-6" />
           </div>
           <div class="space-y-2">
-            <h3 class="text-xl font-bold text-slate-900">2. 👥 師傅自動輪流排，公平公開不吵架</h3>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-xl font-bold text-slate-900">2. 👥 師傅自動輪流排，公平公開不吵架</h3>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 font-bold">免手動記順位</span>
+            </div>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              內建「腳底」與「指壓」獨立排隊輪牌。打卡上班自動進隊列、按完自動排到隊尾，杜絕櫃檯人為偏心與跳牌爭議，師傅向心力大增。
+              內建「腳底」與「指壓」獨立排隊輪牌。打卡上班自動進隊列、按完自動排到隊尾，新手前台不用擔心算錯輪牌順位得罪師傅，制度透明師傅向心力高。
             </p>
           </div>
           <!-- Visual snippet -->
@@ -86,7 +92,10 @@
             <Shuffle class="w-6 h-6" />
           </div>
           <div class="space-y-2">
-            <h3 class="text-xl font-bold text-slate-900">3. 🔄 腳底轉全身自動換床，同個師傅按到底</h3>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-xl font-bold text-slate-900">3. 🔄 腳底轉全身自動換床，同個師傅按到底</h3>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-bold">免手排換房</span>
+            </div>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               做複合套餐最怕卡床！系統自動安排「前 30 分坐腳底椅 ➔ 後 60 分進包廂躺床」，空間精準銜接、同一位師傅全程服務，空間多賺 35%！
             </p>
@@ -117,9 +126,12 @@
             <LayoutDashboard class="w-6 h-6" />
           </div>
           <div class="space-y-2">
-            <h3 class="text-xl font-bold text-slate-900">4. 📊 誰在按、剩幾分？彩色大螢幕一眼看清</h3>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-xl font-bold text-slate-900">4. 📊 點餐機般直覺大看板：10 分鐘上手</h3>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 font-bold">第 1 天獨立值班</span>
+            </div>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              櫃檯大螢幕即時顯示每張床進度條。綠燈剛開始、黃燈快按完、紅燈超時，客人要加節、結帳按一下就完成，新手櫃檯第一天就能上手。
+              櫃檯大螢幕即時顯示每張床進度條。綠燈剛開始、黃燈快按完、紅燈超時，客人要加節、結帳按一下就完成，新進人員第 1 天就能自信值班。
             </p>
           </div>
           <!-- Visual snippet -->

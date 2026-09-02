@@ -6,13 +6,20 @@ import BeautySolutionView from '../views/BeautySolutionView.vue'
 import FitnessSolutionView from '../views/FitnessSolutionView.vue'
 import PricingView from '../views/PricingView.vue'
 import ContactView from '../views/ContactView.vue'
+import ShowcaseView from '../views/ShowcaseView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: HomeView,
-    meta: { title: 'Relievo 睿舒智慧 · 服務業預約排程與智慧派工雲端平台 (SaaS)' }
+    meta: { title: 'Relievo 睿舒智慧 · 按摩養生館 1 秒智慧排單系統 (SaaS)' }
+  },
+  {
+    path: '/showcase',
+    name: 'Showcase',
+    component: ShowcaseView,
+    meta: { title: '系統全貌與功能演示 (業務向業主介紹專用) - Relievo 睿舒智慧' }
   },
   {
     path: '/solutions',

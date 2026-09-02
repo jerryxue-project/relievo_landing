@@ -120,17 +120,17 @@
             </transition>
           </div>
 
-          <a href="#features" class="px-3.5 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
-            核心亮點
-          </a>
-
-          <!-- <router-link
-            to="/pricing"
-            class="px-3.5 py-2 rounded-lg text-sm font-semibold transition-colors"
-            :class="$route.path === '/pricing' ? 'text-brand-600 font-bold' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'"
+          <router-link
+            to="/showcase"
+            class="px-3.5 py-2 rounded-lg text-sm font-bold transition-all flex items-center space-x-1.5"
+            :class="$route.path === '/showcase' ? 'bg-brand-50 text-brand-700 font-extrabold border border-brand-200' : 'text-slate-700 hover:text-brand-600 hover:bg-slate-50'"
           >
-            方案費用
-          </router-link> -->
+            <span>💼 系統全貌 (展示專用)</span>
+          </router-link>
+
+          <a href="#features" class="px-3.5 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
+            特色優勢
+          </a>
 
           <a href="#testimonials" class="px-3.5 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
             客戶評價
@@ -187,6 +187,14 @@
           class="block px-3 py-2 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50"
         >
           產品首頁
+        </router-link>
+
+        <router-link
+          to="/showcase"
+          @click="isMobileMenuOpen = false"
+          class="flex items-center space-x-2 px-3 py-2.5 rounded-xl text-sm font-black bg-brand-50 text-brand-700 border border-brand-200"
+        >
+          <span>💼 系統全貌與功能演示 (展示專用)</span>
         </router-link>
 
         <div class="px-3 py-2 text-xs font-bold text-slate-400 uppercase tracking-wider">

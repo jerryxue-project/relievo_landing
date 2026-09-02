@@ -29,17 +29,25 @@
             class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm sm:text-base shadow-xl shadow-brand-600/30 hover:shadow-brand-600/40 transition-all transform active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
           >
             <Sparkles class="w-4 h-4" />
-            <span>免費預約專人線上演示 (試用 14 天)</span>
+            <span>免費預約專人演示 (試用 14 天)</span>
           </button>
+
+          <router-link
+            to="/showcase"
+            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-brand-50 hover:bg-brand-100 text-brand-700 font-black text-sm sm:text-base border border-brand-200 shadow-xs transition-all flex items-center justify-center space-x-2"
+          >
+            <Briefcase class="w-4 h-4 text-brand-600" />
+            <span>💼 系統全貌與功能演示 (展示專用)</span>
+          </router-link>
 
           <a
             href="http://localhost:5173"
             target="_blank"
             rel="noopener noreferrer"
-            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 hover:text-slate-900 font-bold text-sm sm:text-base shadow-xs transition-all flex items-center justify-center space-x-2"
+            class="w-full sm:w-auto px-5 py-3.5 rounded-2xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 hover:text-slate-900 font-bold text-sm sm:text-base shadow-xs transition-all flex items-center justify-center space-x-2"
           >
-            <PlayCircle class="w-4 h-4 text-brand-600" />
-            <span>直接看真實排程後台</span>
+            <PlayCircle class="w-4 h-4 text-slate-500" />
+            <span>管理後台 Demo</span>
           </a>
         </div>
 
@@ -72,7 +80,7 @@
 </template>
 
 <script setup>
-import { Sparkles, PlayCircle } from 'lucide-vue-next'
+import { Sparkles, PlayCircle, Briefcase } from 'lucide-vue-next'
 
 defineEmits(['open-demo-modal'])
 </script>

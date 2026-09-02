@@ -120,13 +120,6 @@
             </transition>
           </div>
 
-          <router-link
-            to="/showcase"
-            class="px-3.5 py-2 rounded-lg text-sm font-bold transition-all flex items-center space-x-1.5"
-            :class="$route.path === '/showcase' ? 'bg-brand-50 text-brand-700 font-extrabold border border-brand-200' : 'text-slate-700 hover:text-brand-600 hover:bg-slate-50'"
-          >
-            <span>💼 系統全貌 (展示專用)</span>
-          </router-link>
 
           <a href="#features" class="px-3.5 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
             特色優勢
@@ -189,13 +182,6 @@
           產品首頁
         </router-link>
 
-        <router-link
-          to="/showcase"
-          @click="isMobileMenuOpen = false"
-          class="flex items-center space-x-2 px-3 py-2.5 rounded-xl text-sm font-black bg-brand-50 text-brand-700 border border-brand-200"
-        >
-          <span>💼 系統全貌與功能演示 (展示專用)</span>
-        </router-link>
 
         <div class="px-3 py-2 text-xs font-bold text-slate-400 uppercase tracking-wider">
           多產業解決方案

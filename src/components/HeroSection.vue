@@ -32,14 +32,6 @@
             <span>免費預約專人演示 (試用 14 天)</span>
           </button>
 
-          <router-link
-            to="/showcase"
-            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-brand-50 hover:bg-brand-100 text-brand-700 font-black text-sm sm:text-base border border-brand-200 shadow-xs transition-all flex items-center justify-center space-x-2"
-          >
-            <Briefcase class="w-4 h-4 text-brand-600" />
-            <span>💼 系統全貌與功能演示 (展示專用)</span>
-          </router-link>
-
           <a
             href="http://localhost:5173"
             target="_blank"
@@ -80,7 +72,7 @@
 </template>
 
 <script setup>
-import { Sparkles, PlayCircle, Briefcase } from 'lucide-vue-next'
+import { Sparkles, PlayCircle } from 'lucide-vue-next'
 
 defineEmits(['open-demo-modal'])
 </script>

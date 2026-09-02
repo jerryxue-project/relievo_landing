@@ -3,42 +3,7 @@
     <!-- Hero Section (簡潔、直擊痛點、手機友善) -->
     <HeroSection @open-demo-modal="isDemoModalOpen = true" />
 
-    <!-- 1. Dedicated Showcase Gateway Card (引導業務與業主進入系統全貌展示頁) -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-10 mb-16 relative z-20">
-      <div class="rounded-3xl bg-gradient-to-r from-slate-900 via-brand-950 to-indigo-950 text-white p-6 sm:p-8 shadow-xl border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="space-y-2 text-center md:text-left">
-          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-500/20 text-brand-300 text-xs font-bold border border-brand-400/30">
-            <Briefcase class="w-3.5 h-3.5" />
-            <span>業務向業主介紹專用通道</span>
-          </div>
-          <h3 class="text-xl sm:text-2xl font-black tracking-tight">
-            想要查看系統完整畫面、甘特排程與現場演算法演示？
-          </h3>
-          <p class="text-slate-300 text-xs sm:text-sm max-w-2xl leading-relaxed">
-            我們為業務人員與門市業主準備了專屬的「系統全貌展示頁」，包含實機操作錄影、6大功能模組深潛與排程算力沙盒。
-          </p>
-        </div>
-
-        <div class="flex-shrink-0 flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
-          <router-link
-            to="/showcase"
-            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-gradient-to-r from-brand-500 to-indigo-600 hover:from-brand-400 hover:to-indigo-500 text-white font-extrabold text-sm shadow-lg shadow-brand-500/25 flex items-center justify-center space-x-2 transition-all transform active:scale-95"
-          >
-            <span>💼 進入系統全貌展示頁</span>
-            <ArrowRight class="w-4 h-4" />
-          </router-link>
-          <a
-            href="http://localhost:5173"
-            target="_blank"
-            class="w-full sm:w-auto px-5 py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm border border-white/20 transition-all text-center"
-          >
-            線上後台 Demo
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 2. Core Features Highlights (特色介紹專注區) -->
+    <!-- 1. Core Features Highlights (特色介紹專注區) -->
     <FeatureShowcase />
 
     <!-- 3. Pain Points vs. Relievo Solution Comparison Matrix -->
@@ -146,12 +111,6 @@
           >
             免費預約專人演示 & 試用
           </button>
-          <router-link
-            to="/showcase"
-            class="px-6 py-3.5 rounded-2xl bg-brand-800/80 hover:bg-brand-800 text-white font-bold text-sm border border-brand-400/40"
-          >
-            💼 查看系統完整演示 (業務專用)
-          </router-link>
         </div>
       </div>
     </section>
@@ -164,8 +123,6 @@
 <script setup>
 import { ref } from 'vue'
 import {
-  Briefcase,
-  ArrowRight,
   CheckCircle2,
   XCircle
 } from 'lucide-vue-next'

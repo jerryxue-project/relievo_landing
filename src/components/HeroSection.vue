@@ -18,13 +18,13 @@
         </div>
 
         <!-- Main Headline -->
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.18]">
-          新進前台 <span class="text-brand-600 underline decoration-brand-300 decoration-wavy underline-offset-4">10 分鐘上手</span>！<br />
-          <span class="text-brand-600">1 秒排好床位與師傅</span>，從此不撞單
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-snug sm:leading-tight my-7 sm:my-10">
+          <span class="block">新進前台 <span class="text-brand-600 underline decoration-brand-300 decoration-wavy underline-offset-8">10 分鐘上手</span>！</span>
+          <span class="block mt-3 sm:mt-5 text-brand-600">1 秒排好床位與師傅，從此不撞單</span>
         </h1>
 
         <!-- Subheadline -->
-        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto pt-2 pb-2">
           告別長達 2 週的痛苦培訓與人員交接困擾！電話一來免翻白板心算，<strong class="text-slate-900 font-bold">點餐機般直覺操作</strong>，系統自動完成<strong class="text-slate-900 font-bold">床位秒排</strong>、<strong class="text-slate-900 font-bold">師傅公平輪流</strong>與<strong class="text-slate-900 font-bold">套餐換床</strong>，新人第 1 天就能從容接單！
         </p>
 

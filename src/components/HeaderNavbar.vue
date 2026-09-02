@@ -3,9 +3,9 @@
     <!-- Top Announcement Bar -->
     <div class="bg-gradient-to-r from-brand-600 to-indigo-600 text-white text-xs py-1.5 px-4 text-center font-medium">
       <div class="max-w-7xl mx-auto flex items-center justify-center space-x-2">
-        <span class="bg-white/20 text-white px-2 py-0.5 rounded-full text-[10px] font-bold">新發布</span>
-        <span>Relievo Spa v2.0 按摩旗艦版全新上線！立即體驗雙輪牌與分段空間智慧派工</span>
-        <router-link to="/solutions/spa" class="underline font-bold hover:text-brand-100 ml-1">了解詳情 &rarr;</router-link>
+        <span class="bg-white/20 text-white px-2 py-0.5 rounded-full text-[10px] font-bold">新上線</span>
+        <span>🎉 Relievo Spa 按摩旗艦版全新上線！立即體驗 1 秒自動排單與師傅公平輪牌</span>
+        <router-link to="/solutions/spa" class="underline font-bold hover:text-brand-100 ml-1">了解更多 &rarr;</router-link>
       </div>
     </div>
 
@@ -23,7 +23,7 @@
               <span class="text-sm font-bold text-slate-700">睿舒智慧</span>
               <span class="text-[10px] px-1.5 py-0.5 rounded bg-brand-50 text-brand-700 font-bold border border-brand-200">SaaS</span>
             </div>
-            <p class="text-[10px] text-slate-400">服務業智慧排程與派工雲端平台</p>
+            <p class="text-[10px] text-slate-400">按摩美業 1 秒智慧排單系統</p>
           </div>
         </router-link>
 

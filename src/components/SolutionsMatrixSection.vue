@@ -41,23 +41,23 @@
             </div>
             <div>
               <h3 class="text-xl font-extrabold text-slate-900">Relievo Spa 按摩養生館</h3>
-              <p class="text-xs text-brand-600 font-bold mt-0.5">智慧排程與師傅輪牌派工系統</p>
+              <p class="text-xs text-brand-600 font-bold mt-0.5">智慧排單與師傅排隊派工系統</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
-              專為腳底按摩、經絡指壓、精油油推設計。內建雙輪牌 FIFO 輪轉機制、複合套餐分段空間自動轉移與衝突檢測。
+              專為腳底按摩、全身指壓、精油油推設計。1 秒排好床位與師傅、套餐換床無縫接軌、師傅排隊公平不吵架，空間多賺 35%！
             </p>
             <ul class="space-y-1.5 text-xs text-slate-700 pt-2 border-t border-slate-100">
               <li class="flex items-center space-x-2">
                 <Check class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
-                <span>腳底 / 指壓雙輪牌獨立隊列</span>
+                <span>腳底 / 指壓 獨立自動輪流派工</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
-                <span>男女師指定、包廂床位自動匹配</span>
+                <span>男女師、指定師傅、包廂床位 1 秒排定</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
-                <span>即時營運大看板 & 施作倒數</span>
+                <span>彩色大螢幕進度條，誰在按、剩幾分一眼看清</span>
               </li>
             </ul>
           </div>

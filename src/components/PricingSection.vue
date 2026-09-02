@@ -82,11 +82,11 @@
               <span class="text-xs text-slate-500 font-medium">/ 月</span>
             </div>
             <ul class="space-y-2.5 text-xs text-slate-700 pt-4 border-t border-slate-100">
-              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>最多支援 25 位技師名冊</span></li>
-              <li class="flex items-center space-x-2 font-bold text-brand-900"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>腳底 / 指壓雙輪牌獨立 FIFO 隊列</span></li>
-              <li class="flex items-center space-x-2 font-bold text-brand-900"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>複合套餐跨空間分段轉移排程</span></li>
-              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>即時營運大看板與施作倒數進度條</span></li>
-              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>客滿智慧推薦鄰近可行時段</span></li>
+              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>最多支援 25 位師傅名冊</span></li>
+              <li class="flex items-center space-x-2 font-bold text-brand-900"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>腳底 / 指壓雙輪牌自動排隊派工（公平不吵架）</span></li>
+              <li class="flex items-center space-x-2 font-bold text-brand-900"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>複合套餐自動換床（腳底轉全身，同位師傅按到底）</span></li>
+              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>即時營運大螢幕與彩色倒數進度條</span></li>
+              <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>客滿自動推薦最近空檔時段</span></li>
               <li class="flex items-center space-x-2"><Check class="w-4 h-4 text-brand-600 flex-shrink-0" /><span>專屬 LINE 官方技術客服支援</span></li>
             </ul>
           </div>

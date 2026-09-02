@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-xl text-slate-900 relative overflow-hidden">
+  <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-10 border border-slate-200 shadow-xl text-slate-900 relative overflow-hidden">
     <!-- Top Solver Status Bar -->
     <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
       <div class="flex items-center space-x-2.5">
-        <div class="w-8 h-8 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-600 font-bold">
+        <div class="w-8 h-8 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-600 font-bold flex-shrink-0">
           <Cpu class="w-4 h-4" />
         </div>
         <div>
@@ -11,15 +11,16 @@
           <span class="text-[11px] text-slate-500">點選左側條件，右側立即自動排好床位與師傅！</span>
         </div>
       </div>
-      <span class="text-[11px] font-mono text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-200 font-bold flex items-center space-x-1">
+      <span class="text-[11px] font-mono text-brand-700 bg-brand-50 px-2.5 sm:px-3 py-1 rounded-full border border-brand-200 font-bold flex items-center space-x-1 flex-shrink-0">
         <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-        <span>系統即時排單中</span>
+        <span class="hidden sm:inline">系統即時排單中</span>
+        <span class="sm:hidden">排單中</span>
       </span>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
       <!-- Left: Interactive Controls -->
-      <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-5 border border-slate-200 space-y-4">
+      <div class="lg:col-span-5 bg-slate-50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-200 space-y-4">
         <div>
           <h3 class="text-sm font-bold text-slate-900 flex items-center space-x-2">
             <SlidersHorizontal class="w-4 h-4 text-brand-600" />

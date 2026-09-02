@@ -15,17 +15,17 @@
         </div>
       </div>
 
-      <!-- Interactive View Switcher Tabs -->
-      <div class="flex items-center space-x-1 bg-slate-200/80 p-1 rounded-xl text-xs font-bold">
+      <!-- Interactive View Switcher Tabs (Mobile Touch Friendly) -->
+      <div class="flex items-center space-x-1 bg-slate-200/80 p-1 rounded-xl text-xs font-bold overflow-x-auto max-w-full scrollbar-none">
         <button
           v-for="tab in tabs"
           :key="tab.id"
           type="button"
           @click="activeTab = tab.id"
-          class="px-3 py-1.5 rounded-lg transition-all flex items-center space-x-1.5 cursor-pointer"
+          class="px-2.5 sm:px-3 py-1.5 rounded-lg transition-all flex items-center space-x-1.5 cursor-pointer whitespace-nowrap flex-shrink-0"
           :class="activeTab === tab.id ? 'bg-white text-brand-700 shadow-xs font-extrabold' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/50'"
         >
-          <component :is="tab.icon" class="w-3.5 h-3.5" />
+          <component :is="tab.icon" class="w-3.5 h-3.5 flex-shrink-0" />
           <span>{{ tab.label }}</span>
         </button>
       </div>
@@ -42,7 +42,7 @@
     </div>
 
     <!-- Inner Application Canvas (Style C - Modern SaaS Clean) -->
-    <div class="bg-slate-50 p-4 sm:p-7 min-h-[540px]">
+    <div class="bg-slate-50 p-3.5 sm:p-7 min-h-[480px] sm:min-h-[540px]">
       <!-- 1. TAB: Dashboard Live View -->
       <div v-if="activeTab === 'dashboard'" class="space-y-6 animate-fadeIn">
         <!-- Top App Navbar Mockup -->

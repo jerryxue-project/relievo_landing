@@ -42,8 +42,8 @@
     <!-- Testimonials Section -->
     <TestimonialsSection />
 
-    <!-- Pricing Section -->
-    <PricingSection @open-demo-modal="isDemoModalOpen = true" />
+    <!-- Pricing Section (Hidden for now, preserved for future display) -->
+    <!-- <PricingSection @open-demo-modal="isDemoModalOpen = true" /> -->
 
     <!-- FAQ Section -->
     <FaqSection />

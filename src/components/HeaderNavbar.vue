@@ -124,13 +124,13 @@
             核心亮點
           </a>
 
-          <router-link
+          <!-- <router-link
             to="/pricing"
             class="px-3.5 py-2 rounded-lg text-sm font-semibold transition-colors"
             :class="$route.path === '/pricing' ? 'text-brand-600 font-bold' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'"
           >
             方案費用
-          </router-link>
+          </router-link> -->
 
           <a href="#testimonials" class="px-3.5 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
             客戶評價
@@ -218,13 +218,13 @@
           </router-link>
         </div>
 
-        <router-link
+        <!-- <router-link
           to="/pricing"
           @click="isMobileMenuOpen = false"
           class="block px-3 py-2 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50"
         >
           方案費用
-        </router-link>
+        </router-link> -->
 
         <div class="pt-3 border-t border-slate-100 space-y-2">
           <a

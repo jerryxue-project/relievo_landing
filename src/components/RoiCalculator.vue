@@ -2,15 +2,15 @@
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
       <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto space-y-4">
-        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs sm:text-sm font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3.5 py-1.5 rounded-full border border-brand-200">
           ROI Calculator
         </span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          立即試算 Relievo 為您的門市<br /><span class="text-brand-600">每月創造的營收與工時效益</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          試算 Relievo 為您的門市<br /><span class="text-brand-600">每月創造的營收與工時效益</span>
         </h2>
-        <p class="text-slate-600 text-sm sm:text-base">
-          拖動滑桿輸入您的門市規模，即時預估排程最佳化帶來的真實回報。
+        <p class="text-sm sm:text-base text-slate-600">
+          拖動滑桿輸入門市規模，即時預估排程最佳化帶來的真實回報。
         </p>
       </div>
 
@@ -19,10 +19,10 @@
           <!-- Sliders -->
           <div class="lg:col-span-6 space-y-6">
             <!-- Slider 1: Masseur count -->
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs sm:text-sm font-semibold">
-                <span class="text-slate-300">門市技師 / 師傅人數：</span>
-                <span class="font-mono font-black text-brand-400 text-lg">{{ masseurCount }} 位</span>
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between text-sm sm:text-base font-bold">
+                <span class="text-slate-200">門市技師 / 師傅人數：</span>
+                <span class="font-mono font-black text-brand-400 text-xl">{{ masseurCount }} 位</span>
               </div>
               <input
                 v-model.number="masseurCount"
@@ -30,20 +30,20 @@
                 min="2"
                 max="30"
                 step="1"
-                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
+                class="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
               />
-              <div class="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span>2 人 (單店工作室)</span>
+              <div class="flex justify-between text-xs text-slate-400 font-mono">
+                <span>2 人 (單店)</span>
                 <span>15 人 (中型名店)</span>
                 <span>30 人 (旗艦連鎖)</span>
               </div>
             </div>
 
             <!-- Slider 2: Average Service Price -->
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs sm:text-sm font-semibold">
-                <span class="text-slate-300">平均單客消費金額：</span>
-                <span class="font-mono font-black text-brand-400 text-lg">NT$ {{ avgTicket }}</span>
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between text-sm sm:text-base font-bold">
+                <span class="text-slate-200">平均單客消費金額：</span>
+                <span class="font-mono font-black text-brand-400 text-xl">NT$ {{ avgTicket }}</span>
               </div>
               <input
                 v-model.number="avgTicket"
@@ -51,9 +51,9 @@
                 min="600"
                 max="3000"
                 step="100"
-                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
+                class="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
               />
-              <div class="flex justify-between text-[10px] text-slate-500 font-mono">
+              <div class="flex justify-between text-xs text-slate-400 font-mono">
                 <span>NT$ 600</span>
                 <span>NT$ 1,500</span>
                 <span>NT$ 3,000</span>
@@ -61,10 +61,10 @@
             </div>
 
             <!-- Slider 3: Daily appointments per masseur -->
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs sm:text-sm font-semibold">
-                <span class="text-slate-300">每位師傅每日平均單數：</span>
-                <span class="font-mono font-black text-brand-400 text-lg">{{ dailyOrders }} 節/單</span>
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between text-sm sm:text-base font-bold">
+                <span class="text-slate-200">每位師傅每日平均單數：</span>
+                <span class="font-mono font-black text-brand-400 text-xl">{{ dailyOrders }} 節/單</span>
               </div>
               <input
                 v-model.number="dailyOrders"
@@ -72,34 +72,34 @@
                 min="2"
                 max="8"
                 step="1"
-                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
+                class="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-500"
               />
             </div>
           </div>
 
           <!-- Output Display -->
-          <div class="lg:col-span-6 bg-slate-950/80 rounded-2xl p-6 border border-slate-800 space-y-6">
-            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">
+          <div class="lg:col-span-6 bg-slate-950/80 rounded-2xl p-6 sm:p-7 border border-slate-800 space-y-6">
+            <div class="text-xs sm:text-sm font-bold text-slate-400 uppercase tracking-wider">
               預期每月營運提升效益
             </div>
 
             <div class="space-y-4">
-              <div class="p-4 rounded-xl bg-brand-950/60 border border-brand-800/60 flex items-center justify-between">
+              <div class="p-4 sm:p-5 rounded-2xl bg-brand-950/60 border border-brand-800/60 flex items-center justify-between">
                 <div>
-                  <span class="text-xs text-slate-400 block">每月排程翻床額外增長營收</span>
-                  <span class="text-2xl sm:text-3xl font-black text-brand-400 font-mono">+NT$ {{ monthlyAddedRevenue.toLocaleString() }}</span>
+                  <span class="text-xs sm:text-sm text-slate-400 block font-medium">每月排程翻床額外增長營收</span>
+                  <span class="text-2xl sm:text-3xl font-black text-brand-400 font-mono mt-0.5 block">+NT$ {{ monthlyAddedRevenue.toLocaleString() }}</span>
                 </div>
-                <span class="text-xs text-emerald-400 font-bold bg-emerald-950/80 px-2 py-1 rounded border border-emerald-800">
+                <span class="text-xs sm:text-sm text-emerald-400 font-bold bg-emerald-950/80 px-2.5 py-1.5 rounded-lg border border-emerald-800">
                   +18% 產能
                 </span>
               </div>
 
-              <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-between">
+              <div class="p-4 sm:p-5 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between">
                 <div>
-                  <span class="text-xs text-slate-400 block">每月節省櫃檯人工排班與糾紛工時</span>
-                  <span class="text-2xl sm:text-3xl font-black text-teal-400 font-mono">{{ savedHours }} 小時</span>
+                  <span class="text-xs sm:text-sm text-slate-400 block font-medium">每月節省櫃檯排班與溝通工時</span>
+                  <span class="text-2xl sm:text-3xl font-black text-teal-400 font-mono mt-0.5 block">{{ savedHours }} 小時</span>
                 </div>
-                <span class="text-xs text-teal-400 font-bold bg-teal-950/80 px-2 py-1 rounded border border-teal-800">
+                <span class="text-xs sm:text-sm text-teal-400 font-bold bg-teal-950/80 px-2.5 py-1.5 rounded-lg border border-teal-800">
                   工時節省 90%
                 </span>
               </div>
@@ -107,9 +107,9 @@
 
             <button
               @click="$emit('open-demo-modal')"
-              class="w-full py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs shadow-lg shadow-brand-600/30 transition-all cursor-pointer"
+              class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-sm sm:text-base shadow-lg shadow-brand-600/30 transition-all cursor-pointer"
             >
-              免費預約專人為門市客製精算效益 &rarr;
+              免費預約專人為門市精算效益 &rarr;
             </button>
           </div>
         </div>

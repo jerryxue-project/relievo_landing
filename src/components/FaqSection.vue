@@ -1,26 +1,26 @@
 <template>
   <section class="py-14 sm:py-20 bg-slate-50 border-t border-slate-200/80">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-      <div class="text-center space-y-2.5">
-        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+      <div class="text-center space-y-3">
+        <span class="text-xs sm:text-sm font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3.5 py-1.5 rounded-full border border-brand-200">
           FAQ
         </span>
-        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">常見問題解答</h2>
-        <p class="text-slate-600 text-xs sm:text-sm">若有其他疑問，歡迎隨時透過專人諮詢與我們聯繫。</p>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">常見問題解答</h2>
+        <p class="text-sm sm:text-base text-slate-600">若有其他疑問，歡迎隨時透過專人諮詢與我們聯繫。</p>
       </div>
 
-      <div class="space-y-3">
+      <div class="space-y-3.5">
         <div
           v-for="(faq, idx) in faqs"
           :key="idx"
-          class="rounded-2xl bg-white border border-slate-200 p-4 sm:p-5 cursor-pointer shadow-xs transition-all hover:border-brand-300"
+          class="rounded-2xl bg-white border border-slate-200 p-5 cursor-pointer shadow-xs transition-all hover:border-brand-300"
           @click="toggle(idx)"
         >
           <div class="flex items-center justify-between gap-3">
-            <span class="font-bold text-slate-900 text-xs sm:text-sm">{{ faq.q }}</span>
-            <ChevronDown class="w-4 h-4 text-slate-400 flex-shrink-0 transition-transform duration-200" :class="{ 'rotate-180 text-brand-600': openIdx === idx }" />
+            <span class="font-extrabold text-slate-900 text-sm sm:text-base">{{ faq.q }}</span>
+            <ChevronDown class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" :class="{ 'rotate-180 text-brand-600': openIdx === idx }" />
           </div>
-          <p v-if="openIdx === idx" class="text-xs sm:text-sm text-slate-600 mt-2.5 pt-2.5 border-t border-slate-100 leading-relaxed">
+          <p v-if="openIdx === idx" class="text-sm sm:text-base text-slate-700 mt-3 pt-3 border-t border-slate-100 leading-relaxed font-normal">
             {{ faq.a }}
           </p>
         </div>

@@ -7,12 +7,12 @@
       <div class="text-center max-w-3xl mx-auto space-y-5">
         <!-- Badges -->
         <div class="flex flex-wrap items-center justify-center gap-2">
-          <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-brand-50 border border-brand-200 shadow-xs text-xs font-bold text-brand-700">
+          <div class="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full bg-brand-50 border border-brand-200 shadow-xs text-xs sm:text-sm font-bold text-brand-700">
             <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span>
             <span>按摩養生・美業沙龍專用</span>
           </div>
-          <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 shadow-xs text-xs font-bold text-emerald-800">
-            <GraduationCap class="w-3.5 h-3.5 text-emerald-600" />
+          <div class="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 shadow-xs text-xs sm:text-sm font-bold text-emerald-800">
+            <GraduationCap class="w-4 h-4 text-emerald-600" />
             <span>前台 10 分鐘極速上手</span>
           </div>
         </div>
@@ -24,17 +24,17 @@
         </h1>
 
         <!-- Subheadline (Crisp & Pain-point focused) -->
-        <p class="text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl mx-auto">
+        <p class="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl mx-auto font-normal">
           不用翻白板、免心算排單！<strong class="text-slate-900 font-bold">點餐機般直覺操作</strong>，自動排床、公平輪牌、套餐換床一指搞定，新人第 1 天就能從容接單。
         </p>
 
         <!-- CTA Action Buttons -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
           <button
             @click="$emit('open-demo-modal')"
-            class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm sm:text-base shadow-xl shadow-brand-600/30 hover:shadow-brand-600/40 transition-all transform active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
+            class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-base sm:text-lg shadow-xl shadow-brand-600/30 hover:shadow-brand-600/40 transition-all transform active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
           >
-            <Sparkles class="w-4 h-4" />
+            <Sparkles class="w-5 h-5" />
             <span>免費預約專人演示 (試用 14 天)</span>
           </button>
 
@@ -42,50 +42,50 @@
             href="http://localhost:5173"
             target="_blank"
             rel="noopener noreferrer"
-            class="w-full sm:w-auto px-5 py-3.5 rounded-2xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 hover:text-slate-900 font-bold text-sm sm:text-base shadow-xs transition-all flex items-center justify-center space-x-2"
+            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 hover:text-slate-900 font-bold text-base sm:text-lg shadow-xs transition-all flex items-center justify-center space-x-2"
           >
-            <PlayCircle class="w-4 h-4 text-slate-500" />
+            <PlayCircle class="w-5 h-5 text-slate-500" />
             <span>管理後台 Demo</span>
           </a>
         </div>
 
         <!-- Front Desk Low Learning Curve Value Props -->
-        <div class="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs font-bold text-slate-700">
-          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-700 px-3 py-1.5 rounded-xl border border-slate-200/80">
-            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
+        <div class="flex flex-wrap items-center justify-center gap-2.5 pt-1 text-xs sm:text-sm font-bold text-slate-700">
+          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-800 px-3.5 py-1.5 rounded-xl border border-slate-200/80">
+            <CheckCircle2 class="w-4 h-4 text-emerald-600 flex-shrink-0" />
             <span>免背複雜規則</span>
           </span>
-          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-700 px-3 py-1.5 rounded-xl border border-slate-200/80">
-            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
+          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-800 px-3.5 py-1.5 rounded-xl border border-slate-200/80">
+            <CheckCircle2 class="w-4 h-4 text-emerald-600 flex-shrink-0" />
             <span>防呆零失誤</span>
           </span>
-          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-700 px-3 py-1.5 rounded-xl border border-slate-200/80">
-            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
+          <span class="inline-flex items-center space-x-1.5 bg-slate-100 text-slate-800 px-3.5 py-1.5 rounded-xl border border-slate-200/80">
+            <CheckCircle2 class="w-4 h-4 text-emerald-600 flex-shrink-0" />
             <span>離職無痛交接</span>
           </span>
         </div>
 
         <!-- Trust Metrics -->
-        <div class="pt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl mx-auto border-t border-slate-200/80">
-          <div class="text-center p-3 bg-white/70 rounded-2xl border border-slate-100 shadow-xs">
-            <div class="text-2xl sm:text-3xl font-black text-brand-600 font-mono">10 分鐘</div>
-            <div class="text-xs text-slate-700 font-bold mt-0.5">前台極速上手</div>
-            <div class="text-[10px] text-slate-400">培訓從 2 週 ➔ 10 分</div>
+        <div class="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl mx-auto border-t border-slate-200/80">
+          <div class="text-center p-3.5 bg-white/80 rounded-2xl border border-slate-100 shadow-xs">
+            <div class="text-3xl sm:text-4xl font-black text-brand-600 font-mono">10 分鐘</div>
+            <div class="text-sm font-bold text-slate-800 mt-1">前台極速上手</div>
+            <div class="text-xs text-slate-500 mt-0.5">培訓 2 週 ➔ 10 分</div>
           </div>
-          <div class="text-center p-3 bg-white/70 rounded-2xl border border-slate-100 shadow-xs">
-            <div class="text-2xl sm:text-3xl font-black text-emerald-600 font-mono">1 秒</div>
-            <div class="text-xs text-slate-700 font-bold mt-0.5">自動排單</div>
-            <div class="text-[10px] text-slate-400">免看白板心算</div>
+          <div class="text-center p-3.5 bg-white/80 rounded-2xl border border-slate-100 shadow-xs">
+            <div class="text-3xl sm:text-4xl font-black text-emerald-600 font-mono">1 秒</div>
+            <div class="text-sm font-bold text-slate-800 mt-1">自動排單</div>
+            <div class="text-xs text-slate-500 mt-0.5">免看白板心算</div>
           </div>
-          <div class="text-center p-3 bg-white/70 rounded-2xl border border-slate-100 shadow-xs">
-            <div class="text-2xl sm:text-3xl font-black text-brand-600 font-mono">0 撞單</div>
-            <div class="text-xs text-slate-700 font-bold mt-0.5">防呆零衝突</div>
-            <div class="text-[10px] text-slate-400">床位與師傅完美銜接</div>
+          <div class="text-center p-3.5 bg-white/80 rounded-2xl border border-slate-100 shadow-xs">
+            <div class="text-3xl sm:text-4xl font-black text-brand-600 font-mono">0 撞單</div>
+            <div class="text-sm font-bold text-slate-800 mt-1">防呆零衝突</div>
+            <div class="text-xs text-slate-500 mt-0.5">床位師傅完美銜接</div>
           </div>
-          <div class="text-center p-3 bg-white/70 rounded-2xl border border-slate-100 shadow-xs">
-            <div class="text-2xl sm:text-3xl font-black text-emerald-600 font-mono">100%</div>
-            <div class="text-xs text-slate-700 font-bold mt-0.5">公平輪流</div>
-            <div class="text-[10px] text-slate-400">師傅向心力高</div>
+          <div class="text-center p-3.5 bg-white/80 rounded-2xl border border-slate-100 shadow-xs">
+            <div class="text-3xl sm:text-4xl font-black text-emerald-600 font-mono">100%</div>
+            <div class="text-sm font-bold text-slate-800 mt-1">公平輪流</div>
+            <div class="text-xs text-slate-500 mt-0.5">師傅向心力高</div>
           </div>
         </div>
       </div>

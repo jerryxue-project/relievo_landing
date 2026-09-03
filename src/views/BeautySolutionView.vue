@@ -3,22 +3,28 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Top Title Header -->
       <div class="text-center max-w-3xl mx-auto space-y-4">
-        <span class="px-3.5 py-1.5 rounded-full bg-rose-50 text-rose-800 text-xs font-bold border border-rose-200/80 shadow-xs inline-flex items-center space-x-1.5">
+        <span class="px-4 py-1.5 rounded-full bg-rose-50/90 text-rose-700 text-xs font-bold border border-rose-200/80 shadow-xs inline-flex items-center space-x-1.5">
           <span>✂️💅</span>
           <span>即將推出 · 早鳥預約體驗</span>
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
           Relivo Beauty 美髮美甲沙龍<br />
-          <span class="text-rose-700">AI 智慧諮詢助理 · 設計師雙重確認 · 燙染空檔排班</span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-rose-400">
+            AI 智慧諮詢助理 · 設計師雙重確認 · 燙染空檔排班
+          </span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
           專為美髮沙龍與美甲工作室打造。內建「LINE 24H AI 諮詢助理」，自動完成前期髮況診斷、參考照分析與工時報價；搭配<strong>設計師 3 秒一鍵審核機制</strong>與燙染等待空檔智慧插單，產能翻倍、溝通零負擔。
         </p>
       </div>
 
-      <!-- AI Chatbot Interactive Workflow Showcase -->
-      <div class="mt-12 max-w-5xl mx-auto bg-gradient-to-br from-slate-950 via-slate-900 to-stone-900 rounded-3xl p-6 sm:p-10 border border-slate-800 text-white shadow-2xl space-y-8">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-6">
+      <!-- AI Chatbot Interactive Workflow Showcase (Sleek Salon Dark-mode with Blush Pink Glow) -->
+      <div class="mt-12 max-w-5xl mx-auto bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 rounded-3xl p-6 sm:p-10 border border-rose-500/20 text-white shadow-2xl shadow-rose-950/20 space-y-8 relative overflow-hidden">
+        <!-- Subtle Fashion Glow Accent -->
+        <div class="absolute -top-24 -right-24 w-80 h-80 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-6">
           <div class="space-y-1">
             <div class="inline-flex items-center space-x-2 text-rose-300 text-xs font-bold uppercase tracking-wider">
               <Sparkles class="w-4 h-4 text-rose-400" />
@@ -26,39 +32,39 @@
             </div>
             <h3 class="text-xl sm:text-2xl font-extrabold text-white">「AI 初診整理 ＋ 設計師 3 秒確認」雙重把關流程</h3>
           </div>
-          <span class="px-3 py-1 rounded-full bg-rose-900/40 text-rose-200 text-xs font-bold border border-rose-500/30 self-start md:self-auto flex items-center space-x-1">
+          <span class="px-3.5 py-1.5 rounded-full bg-rose-500/15 text-rose-200 text-xs font-bold border border-rose-400/30 self-start md:self-auto flex items-center space-x-1.5 shadow-xs">
             <span>🛡️</span>
             <span>設計師 100% 最終掌控權</span>
           </span>
         </div>
 
         <!-- Chat Mockup & Designer Card Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           <!-- Left: Simulated LINE Chat Dialog -->
-          <div class="lg:col-span-7 bg-slate-850/90 rounded-2xl p-4 sm:p-5 border border-slate-750 space-y-3.5 shadow-inner">
-            <div class="flex items-center justify-between pb-2 border-b border-slate-700 text-xs text-slate-400 font-mono">
+          <div class="lg:col-span-7 bg-slate-850/95 rounded-2xl p-4 sm:p-5 border border-slate-750 space-y-3.5 shadow-inner">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-700/80 text-xs text-slate-400 font-mono">
               <div class="flex items-center space-x-2">
-                <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-xs shadow-emerald-400/50"></div>
                 <span class="text-slate-200 font-bold">LINE 官方帳號 · 24H 智慧接單中</span>
               </div>
-              <span class="text-rose-300 font-semibold">1. AI 前置初診</span>
+              <span class="text-rose-300 font-semibold text-[11px]">1. AI 前置初診</span>
             </div>
 
             <!-- Chat bubbles -->
             <div class="space-y-3 text-xs sm:text-sm">
               <!-- Customer Bubble -->
               <div class="flex items-start justify-end space-x-2">
-                <div class="bg-rose-700 text-white p-3 rounded-2xl rounded-tr-xs max-w-[85%] space-y-1 shadow-sm">
+                <div class="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-3 rounded-2xl rounded-tr-xs max-w-[85%] space-y-1 shadow-md shadow-rose-500/20 font-medium">
                   <p>我想染這張照片的奶茶灰棕色，想約這週，大概多少錢？要做多久？📸 [附參考照片]</p>
                 </div>
-                <div class="w-7 h-7 rounded-full bg-slate-600 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0">
+                <div class="w-7 h-7 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0 border border-slate-600">
                   客
                 </div>
               </div>
 
               <!-- AI Assistant Response -->
               <div class="flex items-start space-x-2">
-                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-600 to-indigo-600 flex items-center justify-center text-xs text-white font-bold flex-shrink-0">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-500 via-pink-400 to-rose-300 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
                   AI
                 </div>
                 <div class="bg-slate-800 text-slate-100 p-3 rounded-2xl rounded-tl-xs max-w-[90%] space-y-2 border border-slate-700">
@@ -70,26 +76,26 @@
 
               <!-- Customer Bubble 2 -->
               <div class="flex items-start justify-end space-x-2">
-                <div class="bg-rose-700 text-white p-2.5 rounded-2xl rounded-tr-xs max-w-[80%] shadow-sm">
+                <div class="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-2.5 rounded-2xl rounded-tr-xs max-w-[80%] shadow-md shadow-rose-500/20 font-medium">
                   <p>沒有染黑過，目前是深棕色～想約週四 14:00！</p>
                 </div>
-                <div class="w-7 h-7 rounded-full bg-slate-600 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0">
+                <div class="w-7 h-7 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0 border border-slate-600">
                   客
                 </div>
               </div>
 
               <!-- AI Booking Quote & Pending Confirmation -->
               <div class="flex items-start space-x-2">
-                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-600 to-indigo-600 flex items-center justify-center text-xs text-white font-bold flex-shrink-0">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-500 via-pink-400 to-rose-300 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
                   AI
                 </div>
-                <div class="bg-slate-800 text-slate-100 p-3 rounded-2xl rounded-tl-xs max-w-[90%] space-y-2 border border-rose-500/40">
+                <div class="bg-slate-800 text-slate-100 p-3 rounded-2xl rounded-tl-xs max-w-[90%] space-y-2 border border-rose-400/30">
                   <div class="text-rose-300 font-bold">📋 需求與工時已為您盤點完畢：</div>
                   <ul class="text-[11px] text-slate-300 space-y-0.5">
                     <li>• 及胸長髮 ｜ 客製奶茶灰染 + 褪色1次 + 剪髮 + 結構護</li>
                     <li>• 預估工時：<strong class="text-white">150 分鐘</strong> ｜ 預估費用：<strong class="text-rose-300 font-mono">NT$ 3,600 ~ 4,200</strong></li>
                   </ul>
-                  <div class="pt-1.5 p-2 bg-rose-950/40 rounded-xl border border-rose-500/30 text-[11px] text-rose-200 flex items-center space-x-2">
+                  <div class="pt-1.5 p-2 bg-rose-950/50 rounded-xl border border-rose-500/30 text-[11px] text-rose-200 flex items-center space-x-2">
                     <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse flex-shrink-0"></span>
                     <span>預約單已送交 <strong>Leo 總監</strong> 親自審核中，核准後立即通知您！</span>
                   </div>
@@ -100,7 +106,7 @@
 
           <!-- Right: Designer Pre-Consultation Review Card -->
           <div class="lg:col-span-5 space-y-4">
-            <div class="bg-gradient-to-b from-slate-800 to-slate-850 p-5 rounded-2xl border-2 border-rose-500/30 space-y-4 shadow-xl">
+            <div class="bg-gradient-to-b from-slate-800 to-slate-850 p-5 rounded-2xl border border-rose-400/30 space-y-4 shadow-xl">
               <div class="flex items-center justify-between pb-3 border-b border-slate-700">
                 <div class="flex items-center space-x-2">
                   <CheckCircle2 class="w-4 h-4 text-rose-400" />
@@ -133,7 +139,7 @@
                     <span>👨‍🎨 設計師最後把關動作：</span>
                   </div>
                   <div class="grid grid-cols-2 gap-2">
-                    <button type="button" class="py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center justify-center space-x-1 shadow-md shadow-emerald-600/30 cursor-pointer">
+                    <button type="button" class="py-2.5 px-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold text-xs flex items-center justify-center space-x-1 shadow-md shadow-emerald-600/30 cursor-pointer">
                       <span>✅ 同意接單 (發送定金)</span>
                     </button>
                     <button type="button" class="py-2.5 px-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-200 font-bold text-xs flex items-center justify-center space-x-1 cursor-pointer">
@@ -147,8 +153,8 @@
               </div>
             </div>
 
-            <div class="p-3 bg-stone-900/80 rounded-xl border border-slate-700 text-xs text-rose-200 space-y-1">
-              <span class="font-bold block">🚀 效益：</span>
+            <div class="p-3 bg-slate-850/80 rounded-xl border border-rose-500/20 text-xs text-rose-200 space-y-1 shadow-xs">
+              <span class="font-bold block text-rose-300">🚀 效益：</span>
               <span>AI 省去 15 分鐘繁瑣打字，設計師花 3 秒精準把關，雙方滿意度 100%。</span>
             </div>
           </div>
@@ -158,17 +164,17 @@
       <!-- 4 Core Feature Teasers Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-12">
         <!-- Feature 1: AI Chatbot + Designer Review -->
-        <div class="bg-white p-6 sm:p-7 rounded-3xl border-2 border-rose-300/80 shadow-md space-y-3 relative flex flex-col justify-between">
+        <div class="bg-white p-6 sm:p-7 rounded-3xl border-2 border-rose-200/90 hover:border-rose-400 shadow-lg shadow-rose-500/5 space-y-3 relative flex flex-col justify-between transition-all duration-300">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center text-xl font-bold shadow-xs">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               🤖
             </div>
             <div class="space-y-1">
               <div class="flex items-center space-x-1.5">
                 <h3 class="font-extrabold text-slate-900 text-base">AI 初診 ＋ 設計師確認</h3>
-                <span class="text-[9px] px-1.5 py-0.5 rounded-full bg-rose-100 text-rose-800 font-bold">雙重把關</span>
+                <span class="text-[9px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-bold border border-rose-200">雙重把關</span>
               </div>
-              <p class="text-xs text-rose-700 font-bold">前期溝通省時 90%</p>
+              <p class="text-xs text-rose-600 font-bold">前期溝通省時 90%</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
               AI 自動分析參考照、初診髮長、避開染黑漂髮地雷並算好工時，推播摘要讓設計師 3 秒一鍵核准，零糾紛。
@@ -179,12 +185,12 @@
         <!-- Feature 2: Hair Gap Insertion -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center text-xl font-bold">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               ✂️
             </div>
             <div class="space-y-1">
               <h3 class="font-extrabold text-slate-900 text-base">美髮剪染燙分段智慧插單</h3>
-              <p class="text-xs text-rose-700 font-bold">翻椅產能極大化</p>
+              <p class="text-xs text-rose-600 font-bold">翻椅產能極大化</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
               燙染等待空檔（如靜置 45 分鐘）系統自動智慧排入快速洗剪，單一設計師多客平行施作、現場不塞車。
@@ -195,12 +201,12 @@
         <!-- Feature 3: Nail Styles -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center text-xl font-bold">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               💅
             </div>
             <div class="space-y-1">
               <h3 class="font-extrabold text-slate-900 text-base">美甲作品圖鑑即選即約</h3>
-              <p class="text-xs text-rose-700 font-bold">款式與工時精準鎖定</p>
+              <p class="text-xs text-rose-600 font-bold">款式與工時精準鎖定</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
               顧客線上直接挑選款式難度（單色 60 分 / 手繪 90 分 / 卸甲加購），自動為美甲師鎖定美甲桌與施作時間。
@@ -211,12 +217,12 @@
         <!-- Feature 4: Seat & Equipment Solver -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center text-xl font-bold">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               💺
             </div>
             <div class="space-y-1">
               <h3 class="font-extrabold text-slate-900 text-base">沖水台、烘罩與美甲桌防撞</h3>
-              <p class="text-xs text-rose-700 font-bold">多設施資源自動約束</p>
+              <p class="text-xs text-rose-600 font-bold">多設施資源自動約束</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
               剪髮鏡位、洗頭沖水台、蒸氣加熱機與美甲桌多資源即時防衝突，避免多位設計師搶儀器的尷尬。
@@ -225,16 +231,16 @@
         </div>
       </div>
 
-      <!-- Early Access Box -->
-      <div class="max-w-2xl mx-auto mt-12 bg-gradient-to-r from-stone-50 via-rose-50 to-stone-50 rounded-3xl p-8 border border-rose-200/80 text-center space-y-4 shadow-sm">
-        <h3 class="text-lg sm:text-xl font-black text-slate-900">搶先成為首批 Relivo Beauty 早鳥體驗店家</h3>
+      <!-- Early Access Box (Fashion Blush Pink Gradient) -->
+      <div class="max-w-2xl mx-auto mt-12 bg-gradient-to-r from-rose-50/90 via-pink-50/70 to-rose-50/90 rounded-3xl p-8 sm:p-10 border border-rose-200/80 text-center space-y-4 shadow-lg shadow-rose-500/5">
+        <h3 class="text-xl sm:text-2xl font-black text-slate-900">搶先成為首批 Relivo Beauty 早鳥體驗店家</h3>
         <p class="text-xs sm:text-sm text-slate-700 max-w-lg mx-auto leading-relaxed">
           搶先登記的美髮沙龍與美甲工作室，將享有上線首半年 5 折優惠，並由產品團隊提供專屬客製化 LINE AI 諮詢助理設定與 1 對 1 導入支援。
         </p>
         <div class="pt-2">
           <router-link
             to="/contact"
-            class="inline-block px-8 py-3.5 rounded-2xl bg-rose-700 hover:bg-rose-800 text-white font-extrabold text-sm shadow-xl shadow-rose-900/20 transition-all transform active:scale-95"
+            class="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-500 via-pink-500 to-rose-500 hover:from-rose-600 hover:to-pink-600 text-white font-extrabold text-sm sm:text-base shadow-xl shadow-rose-500/25 transition-all transform active:scale-95"
           >
             立即搶先登記美髮美甲早鳥名額 &rarr;
           </router-link>

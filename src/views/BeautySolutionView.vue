@@ -3,13 +3,13 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto space-y-4">
         <span class="px-3 py-1 rounded-full bg-pink-50 text-pink-700 text-xs font-bold border border-pink-200">
-          💅 即將推出 · 早鳥預約體驗
+          ✂️💅 即將推出 · 早鳥預約體驗
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-          Relivo Beauty 美容美甲沙龍<br /><span class="text-pink-600">設計師作品集預約與座位排班系統</span>
+          Relivo Beauty 美髮美甲沙龍<br /><span class="text-pink-600">設計師作品預約、燙染空檔與座位排程系統</span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-          針對美甲、美睫、紋繡與護膚沙龍量身打造。支援設計師個人作品集線上選單、座位與高階光療儀器排程，大幅降低棄單率。
+          專為美髮沙龍與美甲工作室量身打造。支援剪染燙跨時段分工（靜置等待時穿插剪髮）、作品集線上選款、洗頭沖水台與美甲座位防撞排程，徹底告別預約塞車與客人久候。
         </p>
       </div>
 
@@ -17,31 +17,31 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
         <div class="bg-white p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3">
           <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-xl font-bold">
-            🎨
+            ✂️
           </div>
-          <h3 class="font-bold text-slate-900 text-base">作品集款式即選即約</h3>
+          <h3 class="font-bold text-slate-900 text-base">美髮剪染燙分段智慧排班</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            顧客在手機預約時可直接挑選款式難度與施作時長（單色 60分 / 造型手繪 90分 / 延甲加購），自動為美甲師保留精準時段。
+            燙髮/染髮等待空檔（如靜置 45 分鐘）系統自動智慧排入快速剪洗，單一設計師翻椅產能最大化、現場不塞車。
           </p>
         </div>
 
         <div class="bg-white p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3">
           <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-xl font-bold">
-            🪑
+            💅
           </div>
-          <h3 class="font-bold text-slate-900 text-base">座位與儀器多重排程</h3>
+          <h3 class="font-bold text-slate-900 text-base">美甲作品圖鑑即選即約</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            美甲桌、美睫躺椅、獨立美容室與高階導入儀器多重資源自動防撞，同一設計師多項服務自動銜接。
+            顧客線上預約直接挑選款式難度（單色 60 分 / 手繪 90 分 / 卸甲加購），自動為美甲師精準鎖定座位與施作工時。
           </p>
         </div>
 
         <div class="bg-white p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3">
           <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-xl font-bold">
-            💳
+            💺
           </div>
-          <h3 class="font-bold text-slate-900 text-base">定金線上預收防放鳥</h3>
+          <h3 class="font-bold text-slate-900 text-base">沖水台、儀器與美甲桌防撞</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            整合 LINE Pay 與信用卡定金扣款，自動推播前一日預約提醒，徹底解決沙龍門市臨時爽約困擾。
+            剪髮鏡位、洗頭沖水區、蒸氣烘罩機與美甲桌多資源即時防衝突，避免多位設計師搶同一台儀器或座位的尷尬。
           </p>
         </div>
       </div>

@@ -82,27 +82,27 @@
 
           <div class="space-y-3.5">
             <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-2xl shadow-xs">
-              💅
+              ✂️
             </div>
             <div>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美容美甲</h3>
-              <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">作品集預約與座位排班</p>
+              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美髮美甲</h3>
+              <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">燙染空檔插單與美甲座位排程</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-              美甲美睫多師同約、光療機與躺椅約束管理，連動 LINE 官方帳號線上預約。
+              剪染燙分段等待智慧排單、美甲圖鑑線上選款、洗頭沖水台與鏡位防撞管理。
             </p>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-800 pt-2 border-t border-slate-100">
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
-                <span>設計師作品圖鑑即選即約</span>
+                <span>燙染靜置空檔智慧插單剪洗</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
-                <span>美甲座 + 美睫椅多重設施鎖定</span>
+                <span>美甲款式圖鑑精準工時鎖定</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
-                <span>定金線上刷卡防止棄單</span>
+                <span>剪髮座 + 沖水台多設施防衝突</span>
               </li>
             </ul>
           </div>

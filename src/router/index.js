@@ -37,7 +37,7 @@ const routes = [
     path: '/solutions/beauty',
     name: 'BeautySolution',
     component: BeautySolutionView,
-    meta: { title: '美容美甲美睫沙龍預約系統 (即將推出) - Relivo Beauty' }
+    meta: { title: '美髮美甲沙龍預約排班系統 (即將推出) - Relivo Beauty' }
   },
   {
     path: '/solutions/fitness',

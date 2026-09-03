@@ -12,6 +12,20 @@ const mutedIris = {
   950: '#1f2242',
 }
 
+const softBlush = {
+  50: '#fdf8f9',
+  100: '#fbf0f2',
+  200: '#f6e0e5',
+  300: '#eec5cd',
+  400: '#e2a3af',
+  500: '#cf7b8d',
+  600: '#b76174',
+  700: '#984a5c',
+  800: '#7e3f4e',
+  900: '#6c3743',
+  950: '#3f1b23',
+}
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -23,6 +37,7 @@ export default {
       colors: {
         brand: mutedIris,
         indigo: mutedIris,
+        blush: softBlush,
         slate: {
           850: '#152033',
         }

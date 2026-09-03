@@ -70,9 +70,9 @@
           <div class="w-10 h-10 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center font-bold text-lg">
             1
           </div>
-          <h4 class="font-bold text-slate-900 text-sm">雙輪牌獨立 FIFO 隊列</h4>
+          <h4 class="font-bold text-slate-900 text-sm">雙軌獨立自動輪牌機制</h4>
           <p class="text-xs text-slate-600 leading-relaxed">
-            腳底與指壓輪牌分開運作，師傅完工自動回到隊尾，打卡考勤與外出休息全自動聯動，師傅滿意度大幅提升。
+            腳底與指壓輪牌分開運作，師傅完工自動回到排尾，打卡考勤與外出休息全自動聯動，師傅滿意度大幅提升。
           </p>
         </div>
 

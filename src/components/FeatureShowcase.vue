@@ -57,7 +57,7 @@
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
               <h3 class="text-xl sm:text-2xl font-bold text-slate-900">2. 👥 師傅自動輪牌，公信不吵架</h3>
-              <span class="text-xs px-2.5 py-0.5 rounded-full bg-teal-100 text-teal-800 font-bold">自動 FIFO</span>
+              <span class="text-xs px-2.5 py-0.5 rounded-full bg-teal-100 text-teal-800 font-bold">先到先排 · 公平輪流</span>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
               打卡自動進列、完工自動回隊尾。規則透明無私心，新手前台不再擔心排錯順位得罪師傅。

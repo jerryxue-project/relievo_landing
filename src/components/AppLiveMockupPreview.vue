@@ -229,11 +229,11 @@
       <div v-else-if="activeTab === 'queues'" class="space-y-6 animate-fadeIn">
         <div class="flex items-center justify-between">
           <div>
-            <h3 class="text-base font-bold text-slate-900">師傅雙輪牌派工看板 (Double FIFO Queues)</h3>
+            <h3 class="text-base font-bold text-slate-900">師傅雙軌獨立輪牌看板</h3>
             <p class="text-xs text-slate-500">腳底輪牌與指壓輪牌獨立運作，完工結帳自動輪轉至隊尾</p>
           </div>
-          <span class="px-3 py-1 rounded-full bg-teal-50 text-teal-700 border border-teal-200 text-xs font-bold font-mono">
-            公平演算法運作中 (FIFO Auto)
+          <span class="px-3 py-1 rounded-full bg-teal-50 text-teal-700 border border-teal-200 text-xs font-bold">
+            公平輪牌運作中（完工自動回隊尾）
           </span>
         </div>
 

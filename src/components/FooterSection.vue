@@ -55,7 +55,7 @@
           <h4 class="text-xs font-bold text-white uppercase tracking-wider">核心引擎技術</h4>
           <ul class="space-y-2 text-xs text-slate-400">
             <li><a href="#features" class="hover:text-white">多維資源約束求解演算法</a></li>
-            <li><a href="#features" class="hover:text-white">腳底 / 指壓雙輪牌 FIFO 機制</a></li>
+            <li><a href="#features" class="hover:text-white">腳底 / 指壓雙軌自動公平輪牌</a></li>
             <li><a href="#features" class="hover:text-white">複合分段空間轉移排程</a></li>
             <li><a href="#features" class="hover:text-white">即時營運大看板與倒數計時</a></li>
             <li><a href="#features" class="hover:text-white">全裝置自適應響應式設計 (RWD)</a></li>

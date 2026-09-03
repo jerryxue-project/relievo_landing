@@ -9,7 +9,7 @@
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
           Relivo Beauty 美髮美甲沙龍<br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-rose-400">
+          <span class="text-rose-600">
             AI 智慧諮詢助理 · 設計師雙重確認 · 燙染空檔排班
           </span>
         </h1>
@@ -18,12 +18,8 @@
         </p>
       </div>
 
-      <!-- AI Chatbot Interactive Workflow Showcase (Sleek Salon Dark-mode with Blush Pink Glow) -->
-      <div class="mt-12 max-w-5xl mx-auto bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 rounded-3xl p-6 sm:p-10 border border-rose-500/20 text-white shadow-2xl shadow-rose-950/20 space-y-8 relative overflow-hidden">
-        <!-- Subtle Fashion Glow Accent -->
-        <div class="absolute -top-24 -right-24 w-80 h-80 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
+      <!-- AI Chatbot Interactive Workflow Showcase (Sleek Salon Dark-mode with Blush Pink Accents) -->
+      <div class="mt-12 max-w-5xl mx-auto bg-slate-900 rounded-3xl p-6 sm:p-10 border border-slate-800 text-white shadow-xl space-y-8 relative">
         <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-6">
           <div class="space-y-1">
             <div class="inline-flex items-center space-x-2 text-rose-300 text-xs font-bold uppercase tracking-wider">
@@ -54,7 +50,7 @@
             <div class="space-y-3 text-xs sm:text-sm">
               <!-- Customer Bubble -->
               <div class="flex items-start justify-end space-x-2">
-                <div class="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-3 rounded-2xl rounded-tr-xs max-w-[85%] space-y-1 shadow-md shadow-rose-500/20 font-medium">
+                <div class="bg-rose-500 text-white p-3 rounded-2xl rounded-tr-xs max-w-[85%] space-y-1 shadow-sm font-medium">
                   <p>我想染這張照片的奶茶灰棕色，想約這週，大概多少錢？要做多久？📸 [附參考照片]</p>
                 </div>
                 <div class="w-7 h-7 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0 border border-slate-600">
@@ -64,7 +60,7 @@
 
               <!-- AI Assistant Response -->
               <div class="flex items-start space-x-2">
-                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-500 via-pink-400 to-rose-300 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
+                <div class="w-7 h-7 rounded-full bg-rose-500 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
                   AI
                 </div>
                 <div class="bg-slate-800 text-slate-100 p-3 rounded-2xl rounded-tl-xs max-w-[90%] space-y-2 border border-slate-700">
@@ -76,7 +72,7 @@
 
               <!-- Customer Bubble 2 -->
               <div class="flex items-start justify-end space-x-2">
-                <div class="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-2.5 rounded-2xl rounded-tr-xs max-w-[80%] shadow-md shadow-rose-500/20 font-medium">
+                <div class="bg-rose-500 text-white p-2.5 rounded-2xl rounded-tr-xs max-w-[80%] shadow-sm font-medium">
                   <p>沒有染黑過，目前是深棕色～想約週四 14:00！</p>
                 </div>
                 <div class="w-7 h-7 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-200 flex-shrink-0 border border-slate-600">
@@ -86,7 +82,7 @@
 
               <!-- AI Booking Quote & Pending Confirmation -->
               <div class="flex items-start space-x-2">
-                <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-500 via-pink-400 to-rose-300 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
+                <div class="w-7 h-7 rounded-full bg-rose-500 flex items-center justify-center text-xs text-white font-bold flex-shrink-0 shadow-xs">
                   AI
                 </div>
                 <div class="bg-slate-800 text-slate-100 p-3 rounded-2xl rounded-tl-xs max-w-[90%] space-y-2 border border-rose-400/30">
@@ -106,7 +102,7 @@
 
           <!-- Right: Designer Pre-Consultation Review Card -->
           <div class="lg:col-span-5 space-y-4">
-            <div class="bg-gradient-to-b from-slate-800 to-slate-850 p-5 rounded-2xl border border-rose-400/30 space-y-4 shadow-xl">
+            <div class="bg-slate-800 p-5 rounded-2xl border border-rose-400/30 space-y-4 shadow-xl">
               <div class="flex items-center justify-between pb-3 border-b border-slate-700">
                 <div class="flex items-center space-x-2">
                   <CheckCircle2 class="w-4 h-4 text-rose-400" />
@@ -139,7 +135,7 @@
                     <span>👨‍🎨 設計師最後把關動作：</span>
                   </div>
                   <div class="grid grid-cols-2 gap-2">
-                    <button type="button" class="py-2.5 px-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold text-xs flex items-center justify-center space-x-1 shadow-md shadow-emerald-600/30 cursor-pointer">
+                    <button type="button" class="py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center justify-center space-x-1 shadow-sm cursor-pointer">
                       <span>✅ 同意接單 (發送定金)</span>
                     </button>
                     <button type="button" class="py-2.5 px-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-200 font-bold text-xs flex items-center justify-center space-x-1 cursor-pointer">
@@ -166,7 +162,7 @@
         <!-- Feature 1: AI Chatbot + Designer Review -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border-2 border-rose-200/90 hover:border-rose-400 shadow-lg shadow-rose-500/5 space-y-3 relative flex flex-col justify-between transition-all duration-300">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               🤖
             </div>
             <div class="space-y-1">
@@ -185,7 +181,7 @@
         <!-- Feature 2: Hair Gap Insertion -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               ✂️
             </div>
             <div class="space-y-1">
@@ -201,7 +197,7 @@
         <!-- Feature 3: Nail Styles -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               💅
             </div>
             <div class="space-y-1">
@@ -217,7 +213,7 @@
         <!-- Feature 4: Seat & Equipment Solver -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-rose-300 transition-all">
           <div class="space-y-3">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl font-bold shadow-xs border border-rose-100">
               💺
             </div>
             <div class="space-y-1">
@@ -231,8 +227,8 @@
         </div>
       </div>
 
-      <!-- Early Access Box (Fashion Blush Pink Gradient) -->
-      <div class="max-w-2xl mx-auto mt-12 bg-gradient-to-r from-rose-50/90 via-pink-50/70 to-rose-50/90 rounded-3xl p-8 sm:p-10 border border-rose-200/80 text-center space-y-4 shadow-lg shadow-rose-500/5">
+      <!-- Early Access Box (Soft Blush Pink Solid) -->
+      <div class="max-w-2xl mx-auto mt-12 bg-rose-50/90 rounded-3xl p-8 sm:p-10 border border-rose-200 text-center space-y-4 shadow-sm">
         <h3 class="text-xl sm:text-2xl font-black text-slate-900">搶先成為首批 Relivo Beauty 早鳥體驗店家</h3>
         <p class="text-xs sm:text-sm text-slate-700 max-w-lg mx-auto leading-relaxed">
           搶先登記的美髮沙龍與美甲工作室，將享有上線首半年 5 折優惠，並由產品團隊提供專屬客製化 LINE AI 諮詢助理設定與 1 對 1 導入支援。
@@ -240,7 +236,7 @@
         <div class="pt-2">
           <router-link
             to="/contact"
-            class="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-500 via-pink-500 to-rose-500 hover:from-rose-600 hover:to-pink-600 text-white font-extrabold text-sm sm:text-base shadow-xl shadow-rose-500/25 transition-all transform active:scale-95"
+            class="inline-block px-8 py-4 rounded-2xl bg-rose-500 hover:bg-rose-600 text-white font-extrabold text-sm sm:text-base shadow-lg shadow-rose-500/20 transition-all transform active:scale-95"
           >
             立即搶先登記美髮美甲早鳥名額 &rarr;
           </router-link>

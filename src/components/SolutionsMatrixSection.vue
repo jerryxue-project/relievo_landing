@@ -81,7 +81,7 @@
           </div>
 
           <div class="space-y-3.5">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 text-rose-600 flex items-center justify-center text-2xl shadow-xs border border-rose-100">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-2xl shadow-xs border border-rose-100">
               ✂️
             </div>
             <div>
@@ -110,7 +110,7 @@
           <div class="pt-4">
             <router-link
               to="/solutions/beauty"
-              class="block w-full py-3 rounded-xl bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-bold text-sm text-center shadow-md shadow-rose-500/20 transition-all"
+              class="block w-full py-3 rounded-xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-sm text-center shadow-md shadow-rose-500/20 transition-all"
             >
               搶先登記早鳥體驗 &rarr;
             </router-link>

@@ -14,7 +14,7 @@
           </span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-          專為專業美髮沙龍與髮藝工作室打造。內建「LINE 24H AI 諮詢助理」，自動完成前期髮況診斷、參考照分析與工時報價；搭配<strong>設計師 3 秒一鍵審核機制</strong>與燙染等待空檔智慧插單，翻椅產能極大化、溝通零負擔。
+          專為專業美髮沙龍與髮藝工作室打造。內建「LINE 24H AI 諮詢助理」，自動完成前期髮況診斷、參考照分析與工時報價；搭配<strong>設計師 3 秒一鍵確認接單</strong>與燙染等待空檔智慧插單，翻椅產能極大化、溝通零負擔。
         </p>
       </div>
 
@@ -93,7 +93,7 @@
                   </ul>
                   <div class="pt-1.5 p-2 bg-slate-900/90 rounded-xl border border-blush-500/30 text-[11px] text-blush-200 flex items-center space-x-2">
                     <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse flex-shrink-0"></span>
-                    <span>預約單已送交 <strong>Leo 總監</strong> 親自審核中，核准後立即通知您！</span>
+                    <span>預約需求已同步給 <strong>Leo 總監</strong> 親自為您確認，完成後立即通知您！</span>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@
               <div class="flex items-center justify-between pb-3 border-b border-slate-700">
                 <div class="flex items-center space-x-2">
                   <CheckCircle2 class="w-4 h-4 text-blush-400" />
-                  <span class="text-xs font-bold text-white">2. 設計師手機推播 · 3秒審核卡</span>
+                  <span class="text-xs font-bold text-white">2. 設計師手機推播 · 3秒接單確認卡</span>
                 </div>
                 <span class="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold font-mono">待確認</span>
               </div>
@@ -173,7 +173,7 @@
               <p class="text-xs text-blush-600 font-bold">前期溝通省時 90%</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
-              AI 自動分析參考照、初診髮長、避開染黑漂髮地雷並算好工時，推播摘要讓設計師 3 秒一鍵核准，零糾紛。
+              AI 自動分析參考照、初診髮長、避開染黑漂髮地雷並算好工時，推播摘要讓設計師 3 秒一鍵確認接單，零糾紛。
             </p>
           </div>
         </div>

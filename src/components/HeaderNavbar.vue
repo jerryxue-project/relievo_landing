@@ -1,16 +1,16 @@
 <template>
   <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-200">
-    <!-- Top Announcement Bar (Responsive: Concise on Mobile, Full on Desktop) -->
-    <div class="bg-brand-600 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 transition-all">
+    <!-- Top Announcement Bar (Responsive: Sleek on Mobile, Full on Desktop) -->
+    <div class="bg-brand-600 text-white text-[11px] sm:text-xs py-1.5 px-3 sm:px-4 transition-all">
       <router-link
         to="/solutions/spa"
         class="max-w-7xl mx-auto flex items-center justify-center text-center group cursor-pointer"
       >
-        <!-- Mobile Version (Concise & Tapable) -->
-        <div class="flex sm:hidden items-center justify-center space-x-1.5 font-medium leading-tight">
-          <span class="bg-white/20 text-white px-1.5 py-0.5 rounded text-[10px] font-bold flex-shrink-0">新上線</span>
+        <!-- Mobile Version (Clean & Compact) -->
+        <div class="flex sm:hidden items-center justify-center space-x-1.5 font-medium leading-none">
+          <span class="bg-white/20 text-white px-1.5 py-0.5 rounded text-[9px] font-bold flex-shrink-0">新上線</span>
           <span>🎉 Relivo Spa 按摩版上線</span>
-          <span class="font-bold underline underline-offset-2 text-brand-100 flex-shrink-0">立即體驗 &rarr;</span>
+          <span class="font-bold underline underline-offset-2 text-brand-100 flex-shrink-0 ml-0.5">體驗 &rarr;</span>
         </div>
 
         <!-- Desktop Version (Full Feature Pitch) -->
@@ -24,19 +24,19 @@
 
     <!-- Main Navigation -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-18">
+      <div class="flex items-center justify-between h-15 sm:h-18">
         <!-- Logo -->
-        <router-link to="/" class="flex items-center space-x-3 group">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
-            <Sparkles class="w-5 h-5 text-white" />
+        <router-link to="/" class="flex items-center space-x-2.5 sm:space-x-3 group">
+          <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform flex-shrink-0">
+            <Sparkles class="w-4 h-4 sm:w-5 sm:h-5 text-white" />
           </div>
           <div>
-            <div class="flex items-center space-x-2">
-              <span class="text-xl font-black text-slate-900 tracking-tight">Relivo</span>
-              <span class="text-sm font-bold text-slate-700">睿沃</span>
-              <span class="text-[10px] px-1.5 py-0.5 rounded bg-brand-50 text-brand-700 font-bold border border-brand-200">SaaS</span>
+            <div class="flex items-center space-x-1.5 sm:space-x-2">
+              <span class="text-lg sm:text-xl font-black text-slate-900 tracking-tight">Relivo</span>
+              <span class="text-xs sm:text-sm font-bold text-slate-700">睿沃</span>
+              <span class="text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded bg-brand-50 text-brand-700 font-bold border border-brand-200">SaaS</span>
             </div>
-            <p class="text-[10px] text-slate-400">服務業 1 秒智慧排單系統</p>
+            <p class="text-[10px] text-slate-400 hidden sm:block">服務業 1 秒智慧排單系統</p>
           </div>
         </router-link>
 
@@ -145,10 +145,10 @@
 
         <!-- Right CTA Buttons -->
         <div class="flex items-center space-x-3">
-          <!-- Open Lead Form Button -->
+          <!-- Open Lead Form Button (Desktop Only) -->
           <button
             @click="$emit('open-demo-modal')"
-            class="inline-flex items-center justify-center space-x-2.5 px-6 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold tracking-wide shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer flex-shrink-0"
+            class="hidden sm:inline-flex items-center justify-center space-x-2.5 px-6 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold tracking-wide shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer flex-shrink-0"
           >
             <CalendarCheck class="w-4 h-4 flex-shrink-0" />
             <span class="tracking-wide">預約專人演示</span>

@@ -148,10 +148,10 @@
           <!-- Open Lead Form Button -->
           <button
             @click="$emit('open-demo-modal')"
-            class="inline-flex items-center space-x-2 px-4.5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer"
+            class="inline-flex items-center justify-center space-x-2.5 px-6 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold tracking-wide shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer flex-shrink-0"
           >
-            <CalendarCheck class="w-4 h-4" />
-            <span>預約專人演示</span>
+            <CalendarCheck class="w-4 h-4 flex-shrink-0" />
+            <span class="tracking-wide">預約專人演示</span>
           </button>
 
           <!-- Mobile Hamburger Menu Button -->
@@ -217,9 +217,10 @@
         <div class="pt-3 border-t border-slate-100 space-y-2">
           <button
             @click="() => { isMobileMenuOpen = false; $emit('open-demo-modal'); }"
-            class="block w-full py-3 rounded-xl bg-brand-600 text-center text-sm font-bold text-white shadow-md shadow-brand-600/25"
+            class="w-full py-3.5 px-6 rounded-xl bg-brand-600 hover:bg-brand-700 text-center text-sm font-extrabold text-white tracking-wide shadow-md shadow-brand-600/25 flex items-center justify-center space-x-2 cursor-pointer"
           >
-            預約專人演示
+            <CalendarCheck class="w-4 h-4 flex-shrink-0" />
+            <span class="tracking-wide">預約專人演示</span>
           </button>
         </div>
       </div>

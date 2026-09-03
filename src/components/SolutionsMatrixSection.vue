@@ -86,23 +86,23 @@
             </div>
             <div>
               <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美髮美甲</h3>
-              <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">燙染空檔插單與美甲座位排程</p>
+              <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">AI 諮詢助理 · 燙染插單 · 設施防撞</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-              剪染燙分段等待智慧排單、美甲圖鑑線上選款、洗頭沖水台與鏡位防撞管理。
+              LINE AI 智慧初診與工時報價、剪染燙分段插單、美甲圖鑑與沖水鏡位防撞。
             </p>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-800 pt-2 border-t border-slate-100">
+              <li class="flex items-center space-x-2">
+                <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
+                <span>LINE AI 諮詢助理（前期溝通免人工）</span>
+              </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
                 <span>燙染靜置空檔智慧插單剪洗</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
-                <span>美甲款式圖鑑精準工時鎖定</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
-                <span>剪髮座 + 沖水台多設施防衝突</span>
+                <span>鏡位、沖水台與美甲桌多設施防撞</span>
               </li>
             </ul>
           </div>

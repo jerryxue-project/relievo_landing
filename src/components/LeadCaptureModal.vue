@@ -126,7 +126,7 @@
                   <button
                     v-for="item in [
                       { id: 'SPA', name: '足體養生 / 按摩SPA', icon: '💆‍♂️' },
-                      { id: 'BEAUTY', name: '美髮美甲 / 沙龍工作室', icon: '✂️' },
+                      { id: 'BEAUTY', name: '美髮沙龍 / 髮藝工作室', icon: '✂️' },
                       { id: 'FITNESS', name: '運動放鬆 / 瑜珈體態', icon: '🧘' },
                       { id: 'OTHER', name: '其他預約型服務門市', icon: '🏬' }
                     ]"

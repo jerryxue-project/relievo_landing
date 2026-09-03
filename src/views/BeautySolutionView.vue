@@ -4,17 +4,17 @@
       <!-- Top Title Header -->
       <div class="text-center max-w-3xl mx-auto space-y-4">
         <span class="px-4 py-1.5 rounded-full bg-blush-50 text-blush-700 text-xs font-bold border border-blush-200 shadow-xs inline-flex items-center space-x-1.5">
-          <span>✂️💅</span>
+          <span>✂️💈</span>
           <span>即將推出 · 早鳥預約體驗</span>
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-          Relivo Beauty 美髮美甲沙龍<br />
+          Relivo Beauty 美髮沙龍<br />
           <span class="text-blush-600">
             AI 智慧諮詢助理 · 設計師雙重確認 · 燙染空檔排班
           </span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-          專為美髮沙龍與美甲工作室打造。內建「LINE 24H AI 諮詢助理」，自動完成前期髮況診斷、參考照分析與工時報價；搭配<strong>設計師 3 秒一鍵審核機制</strong>與燙染等待空檔智慧插單，產能翻倍、溝通零負擔。
+          專為專業美髮沙龍與髮藝工作室打造。內建「LINE 24H AI 諮詢助理」，自動完成前期髮況診斷、參考照分析與工時報價；搭配<strong>設計師 3 秒一鍵審核機制</strong>與燙染等待空檔智慧插單，翻椅產能極大化、溝通零負擔。
         </p>
       </div>
 
@@ -185,7 +185,7 @@
               ✂️
             </div>
             <div class="space-y-1">
-              <h3 class="font-extrabold text-slate-900 text-base">美髮剪染燙分段智慧插單</h3>
+              <h3 class="font-extrabold text-slate-900 text-base">剪染燙分段智慧插單</h3>
               <p class="text-xs text-blush-600 font-bold">翻椅產能極大化</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
@@ -194,18 +194,18 @@
           </div>
         </div>
 
-        <!-- Feature 3: Nail Styles -->
+        <!-- Feature 3: Hairstyles & Pricing Portfolio -->
         <div class="bg-white p-6 sm:p-7 rounded-3xl border border-slate-200 shadow-sm space-y-3 flex flex-col justify-between hover:border-blush-300 transition-all">
           <div class="space-y-3">
             <div class="w-12 h-12 rounded-2xl bg-blush-50 text-blush-600 flex items-center justify-center text-xl font-bold shadow-xs border border-blush-100">
-              💅
+              💇‍♀️
             </div>
             <div class="space-y-1">
-              <h3 class="font-extrabold text-slate-900 text-base">美甲作品圖鑑即選即約</h3>
-              <p class="text-xs text-blush-600 font-bold">款式與工時精準鎖定</p>
+              <h3 class="font-extrabold text-slate-900 text-base">髮型圖鑑與精準工時</h3>
+              <p class="text-xs text-blush-600 font-bold">項目與鏡位精準鎖定</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
-              顧客線上直接挑選款式難度（單色 60 分 / 手繪 90 分 / 卸甲加購），自動為美甲師鎖定美甲桌與施作時間。
+              顧客線上直接挑選設計師髮型作品與項目（洗剪 45分 / 燙染 150分 / 護髮加購），自動依髮長精準鎖定工時與鏡位。
             </p>
           </div>
         </div>
@@ -217,11 +217,11 @@
               💺
             </div>
             <div class="space-y-1">
-              <h3 class="font-extrabold text-slate-900 text-base">沖水台、烘罩與美甲桌防撞</h3>
+              <h3 class="font-extrabold text-slate-900 text-base">鏡位、沖水台與烘罩防撞</h3>
               <p class="text-xs text-blush-600 font-bold">多設施資源自動約束</p>
             </div>
             <p class="text-xs text-slate-600 leading-relaxed">
-              剪髮鏡位、洗頭沖水台、蒸氣加熱機與美甲桌多資源即時防衝突，避免多位設計師搶儀器的尷尬。
+              剪髮鏡位、洗頭沖水台、蒸氣加熱機與溫塑燙儀器多資源即時防衝突，避免多位設計師搶設施的尷尬。
             </p>
           </div>
         </div>
@@ -229,16 +229,16 @@
 
       <!-- Early Access Box (Soft Blush Pink Solid) -->
       <div class="max-w-2xl mx-auto mt-12 bg-blush-50 rounded-3xl p-8 sm:p-10 border border-blush-200 text-center space-y-4 shadow-sm">
-        <h3 class="text-xl sm:text-2xl font-black text-slate-900">搶先成為首批 Relivo Beauty 早鳥體驗店家</h3>
+        <h3 class="text-xl sm:text-2xl font-black text-slate-900">搶先成為首批 Relivo Beauty 美髮沙龍早鳥體驗店家</h3>
         <p class="text-xs sm:text-sm text-slate-700 max-w-lg mx-auto leading-relaxed">
-          搶先登記的美髮沙龍與美甲工作室，將享有上線首半年 5 折優惠，並由產品團隊提供專屬客製化 LINE AI 諮詢助理設定與 1 對 1 導入支援。
+          搶先登記的美髮沙龍與髮型設計師工作室，將享有上線首半年 5 折優惠，並由產品團隊提供專屬客製化 LINE AI 諮詢助理設定與 1 對 1 導入支援。
         </p>
         <div class="pt-2">
           <router-link
             to="/contact"
             class="inline-block px-8 py-4 rounded-2xl bg-blush-500 hover:bg-blush-600 text-white font-extrabold text-sm sm:text-base shadow-md shadow-blush-500/20 transition-all transform active:scale-95"
           >
-            立即搶先登記美髮美甲早鳥名額 &rarr;
+            立即搶先登記美髮早鳥名額 &rarr;
           </router-link>
         </div>
       </div>

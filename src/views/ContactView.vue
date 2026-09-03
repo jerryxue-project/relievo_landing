@@ -77,7 +77,7 @@
                   class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-sm text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20"
                 >
                   <option value="SPA">按摩養生 / 足體舒壓</option>
-                  <option value="BEAUTY">美髮美甲 / 沙龍工作室</option>
+                  <option value="BEAUTY">美髮沙龍 / 髮藝工作室</option>
                   <option value="FITNESS">瑜珈健身 / 運動工作室</option>
                   <option value="OTHER">其他預約型門市</option>
                 </select>

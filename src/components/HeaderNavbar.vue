@@ -85,10 +85,10 @@
                   </div>
                   <div>
                     <div class="flex items-center space-x-1.5">
-                      <span class="text-xs font-bold text-slate-900 group-hover/item:text-brand-600">美髮美甲沙龍</span>
+                      <span class="text-xs font-bold text-slate-900 group-hover/item:text-brand-600">美髮沙龍</span>
                       <span class="text-[9px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800 font-bold">即將推出</span>
                     </div>
-                    <p class="text-[11px] text-slate-500 mt-0.5">剪染燙等待插單、美甲圖鑑與座位排班</p>
+                    <p class="text-[11px] text-slate-500 mt-0.5">剪染燙等待插單、AI 初診與座位排班</p>
                   </div>
                 </router-link>
 
@@ -189,7 +189,7 @@
             @click="isMobileMenuOpen = false"
             class="flex items-center space-x-2 px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:bg-brand-50"
           >
-            <span>✂️ 美髮美甲沙龍</span>
+            <span>✂️ 美髮沙龍</span>
             <span class="text-[9px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800 font-bold">預告</span>
           </router-link>
           <router-link

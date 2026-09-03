@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <!-- 2. Beauty & Nails (Coming Soon) -->
+        <!-- 2. Hair Salons (Coming Soon) -->
         <div class="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5 relative flex flex-col justify-between hover:-translate-y-1 hover:border-blush-300 transition-all duration-300">
           <div class="absolute top-5 right-5">
             <span class="px-3 py-1 rounded-full bg-blush-50 text-blush-700 text-xs font-bold border border-blush-200 shadow-xs">
@@ -85,16 +85,16 @@
               ✂️
             </div>
             <div>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美髮美甲</h3>
-              <p class="text-xs sm:text-sm text-blush-600 font-bold mt-0.5">AI 諮詢助理 · 燙染插單 · 設施防撞</p>
+              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美髮沙龍</h3>
+              <p class="text-xs sm:text-sm text-blush-600 font-bold mt-0.5">AI 諮詢助理 · 燙染插單 · 沖水鏡位防撞</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-              LINE AI 智慧初診與工時報價、剪染燙分段插單、美甲圖鑑與沖水鏡位防撞。
+              LINE AI 智慧初診與工時報價、剪染燙分段插單、髮型作品圖鑑與沖水鏡位防撞。
             </p>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-800 pt-2 border-t border-slate-100">
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-blush-500 flex-shrink-0" />
-                <span>LINE AI 諮詢助理（前期溝通免人工）</span>
+                <span>LINE AI 諮詢助理（前期髮況溝通免人工）</span>
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-blush-500 flex-shrink-0" />
@@ -102,7 +102,7 @@
               </li>
               <li class="flex items-center space-x-2">
                 <Check class="w-4 h-4 text-blush-500 flex-shrink-0" />
-                <span>鏡位、沖水台與美甲桌多設施防撞</span>
+                <span>鏡位、沖水台與烘罩多設施防撞</span>
               </li>
             </ul>
           </div>

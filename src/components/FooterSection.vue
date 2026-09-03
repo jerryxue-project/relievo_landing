@@ -33,7 +33,7 @@
             </li>
             <li>
               <router-link to="/solutions/beauty" class="text-slate-400 hover:text-white flex items-center space-x-1.5">
-                <span>✂️ 美髮美甲沙龍</span>
+                <span>✂️ 美髮沙龍</span>
                 <span class="text-[9px] px-1 bg-amber-900/60 text-amber-300 rounded">預告</span>
               </router-link>
             </li>

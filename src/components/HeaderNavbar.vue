@@ -1,12 +1,25 @@
 <template>
   <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-200">
-    <!-- Top Announcement Bar -->
-    <div class="bg-gradient-to-r from-brand-600 to-indigo-600 text-white text-xs py-1.5 px-4 text-center font-medium">
-      <div class="max-w-7xl mx-auto flex items-center justify-center space-x-2">
-        <span class="bg-white/20 text-white px-2 py-0.5 rounded-full text-[10px] font-bold">新上線</span>
-        <span>🎉 Relivo Spa 按摩旗艦版全新上線！立即體驗 1 秒自動排單與師傅公平輪牌</span>
-        <router-link to="/solutions/spa" class="underline font-bold hover:text-brand-100 ml-1">了解更多 &rarr;</router-link>
-      </div>
+    <!-- Top Announcement Bar (Responsive: Concise on Mobile, Full on Desktop) -->
+    <div class="bg-brand-600 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 transition-all">
+      <router-link
+        to="/solutions/spa"
+        class="max-w-7xl mx-auto flex items-center justify-center text-center group cursor-pointer"
+      >
+        <!-- Mobile Version (Concise & Tapable) -->
+        <div class="flex sm:hidden items-center justify-center space-x-1.5 font-medium leading-tight">
+          <span class="bg-white/20 text-white px-1.5 py-0.5 rounded text-[10px] font-bold flex-shrink-0">新上線</span>
+          <span>🎉 Relivo Spa 按摩版上線</span>
+          <span class="font-bold underline underline-offset-2 text-brand-100 flex-shrink-0">立即體驗 &rarr;</span>
+        </div>
+
+        <!-- Desktop Version (Full Feature Pitch) -->
+        <div class="hidden sm:flex items-center justify-center space-x-2 font-medium">
+          <span class="bg-white/20 text-white px-2 py-0.5 rounded-full text-[10px] font-bold">新上線</span>
+          <span>🎉 Relivo Spa 按摩旗艦版全新上線！立即體驗 1 秒自動排單與師傅公平輪牌</span>
+          <span class="font-bold underline underline-offset-2 hover:text-brand-100 ml-1">了解更多 &rarr;</span>
+        </div>
+      </router-link>
     </div>
 
     <!-- Main Navigation -->

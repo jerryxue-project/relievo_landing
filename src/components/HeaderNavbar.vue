@@ -132,21 +132,10 @@
 
         <!-- Right CTA Buttons -->
         <div class="flex items-center space-x-3">
-          <!-- Direct Live System Demo Link -->
-          <a
-            href="http://localhost:5173"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hidden sm:inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl border border-slate-300 hover:border-brand-400 bg-white hover:bg-brand-50/50 text-slate-700 hover:text-brand-700 text-xs font-bold transition-all shadow-xs"
-          >
-            <ExternalLink class="w-3.5 h-3.5" />
-            <span>開啟管理後台 Demo</span>
-          </a>
-
           <!-- Open Lead Form Button -->
           <button
             @click="$emit('open-demo-modal')"
-            class="inline-flex items-center space-x-1.5 px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer"
+            class="inline-flex items-center space-x-2 px-4.5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold shadow-md shadow-brand-600/25 transition-all transform active:scale-95 cursor-pointer"
           >
             <CalendarCheck class="w-4 h-4" />
             <span>預約專人演示</span>
@@ -212,25 +201,10 @@
           </router-link>
         </div>
 
-        <!-- <router-link
-          to="/pricing"
-          @click="isMobileMenuOpen = false"
-          class="block px-3 py-2 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50"
-        >
-          方案費用
-        </router-link> -->
-
         <div class="pt-3 border-t border-slate-100 space-y-2">
-          <a
-            href="http://localhost:5173"
-            target="_blank"
-            class="block w-full text-center py-2.5 rounded-xl border border-slate-300 text-xs font-bold text-slate-700"
-          >
-            開啟管理後台 Demo
-          </a>
           <button
             @click="() => { isMobileMenuOpen = false; $emit('open-demo-modal'); }"
-            class="block w-full py-2.5 rounded-xl bg-brand-600 text-center text-xs font-bold text-white shadow-md shadow-brand-600/25"
+            class="block w-full py-3 rounded-xl bg-brand-600 text-center text-sm font-bold text-white shadow-md shadow-brand-600/25"
           >
             預約專人演示
           </button>
@@ -242,7 +216,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { Sparkles, ChevronDown, CalendarCheck, ExternalLink, Menu, X } from 'lucide-vue-next'
+import { Sparkles, ChevronDown, CalendarCheck, Menu, X } from 'lucide-vue-next'
 
 defineEmits(['open-demo-modal'])
 

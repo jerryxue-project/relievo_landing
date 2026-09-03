@@ -32,21 +32,11 @@
         <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
           <button
             @click="$emit('open-demo-modal')"
-            class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-base sm:text-lg shadow-xl shadow-brand-600/30 hover:shadow-brand-600/40 transition-all transform active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
+            class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-base sm:text-lg shadow-xl shadow-brand-600/30 hover:shadow-brand-600/40 transition-all transform active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
           >
             <Sparkles class="w-5 h-5" />
-            <span>免費預約專人演示 (試用 14 天)</span>
+            <span>免費預約專人演示</span>
           </button>
-
-          <a
-            href="http://localhost:5173"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 hover:text-slate-900 font-bold text-base sm:text-lg shadow-xs transition-all flex items-center justify-center space-x-2"
-          >
-            <PlayCircle class="w-5 h-5 text-slate-500" />
-            <span>管理後台 Demo</span>
-          </a>
         </div>
 
         <!-- Front Desk Low Learning Curve Value Props -->
@@ -94,7 +84,7 @@
 </template>
 
 <script setup>
-import { Sparkles, PlayCircle, GraduationCap, CheckCircle2 } from 'lucide-vue-next'
+import { Sparkles, GraduationCap, CheckCircle2 } from 'lucide-vue-next'
 
 defineEmits(['open-demo-modal'])
 </script>

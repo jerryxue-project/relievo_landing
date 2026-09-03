@@ -60,7 +60,7 @@
             @click="$emit('open-demo-modal')"
             class="w-full py-3 rounded-xl bg-white hover:bg-slate-100 border border-slate-300 text-slate-900 font-bold text-xs shadow-xs transition-colors cursor-pointer"
           >
-            免費試用 14 天
+            免費預約專人演示
           </button>
         </div>
 
@@ -95,7 +95,7 @@
             @click="$emit('open-demo-modal')"
             class="w-full py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs shadow-lg shadow-brand-600/30 transition-all cursor-pointer"
           >
-            立即開始免費試用 &rarr;
+            免費預約專人演示 &rarr;
           </button>
         </div>
 

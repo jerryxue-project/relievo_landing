@@ -62,20 +62,13 @@
             </ul>
           </div>
 
-          <div class="pt-4 flex items-center space-x-2.5">
+          <div class="pt-4">
             <router-link
               to="/solutions/spa"
-              class="flex-1 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm text-center shadow-md shadow-brand-600/20 transition-all"
+              class="w-full block py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm text-center shadow-md shadow-brand-600/20 transition-all"
             >
               產品專頁
             </router-link>
-            <a
-              href="http://localhost:5173"
-              target="_blank"
-              class="px-4 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-sm"
-            >
-              Demo
-            </a>
           </div>
         </div>
 

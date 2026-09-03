@@ -136,14 +136,14 @@
                   </div>
                   <div class="grid grid-cols-2 gap-2">
                     <button type="button" class="py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center justify-center space-x-1 shadow-sm cursor-pointer">
-                      <span>✅ 同意接單 (發送定金)</span>
+                      <span>✅ 確認接單 (成立預約)</span>
                     </button>
                     <button type="button" class="py-2.5 px-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-200 font-bold text-xs flex items-center justify-center space-x-1 cursor-pointer">
                       <span>✏️ 微調時間 / 報價</span>
                     </button>
                   </div>
                   <p class="text-[10px] text-slate-400 text-center">
-                    設計師按確認後，系統自動發送「Leo 總監已親自確認」與定金通知給客人
+                    設計師按確認後，系統自動發送「Leo 總監已親自確認預約」通知給客人
                   </p>
                 </div>
               </div>

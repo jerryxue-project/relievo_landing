@@ -80,7 +80,7 @@
                   to="/solutions/beauty"
                   class="flex items-start space-x-3 p-2.5 rounded-xl hover:bg-brand-50/60 transition-colors group/item"
                 >
-                  <div class="w-8 h-8 rounded-lg bg-pink-50 text-pink-600 flex items-center justify-center flex-shrink-0 font-bold">
+                  <div class="w-8 h-8 rounded-lg bg-rose-50 text-rose-700 flex items-center justify-center flex-shrink-0 font-bold">
                     ✂️
                   </div>
                   <div>

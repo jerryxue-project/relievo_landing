@@ -73,35 +73,35 @@
         </div>
 
         <!-- 2. Beauty & Nails (Coming Soon) -->
-        <div class="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5 relative flex flex-col justify-between hover:-translate-y-1 hover:border-pink-300 transition-all duration-300">
+        <div class="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5 relative flex flex-col justify-between hover:-translate-y-1 hover:border-rose-300 transition-all duration-300">
           <div class="absolute top-5 right-5">
-            <span class="px-3 py-1 rounded-full bg-pink-100 text-pink-800 text-xs font-bold border border-pink-200">
+            <span class="px-3 py-1 rounded-full bg-rose-50 text-rose-800 text-xs font-bold border border-rose-200/80">
               即將推出
             </span>
           </div>
 
           <div class="space-y-3.5">
-            <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-2xl shadow-xs">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center text-2xl shadow-xs">
               ✂️
             </div>
             <div>
               <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美髮美甲</h3>
-              <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">AI 諮詢助理 · 燙染插單 · 設施防撞</p>
+              <p class="text-xs sm:text-sm text-rose-700 font-bold mt-0.5">AI 諮詢助理 · 燙染插單 · 設施防撞</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
               LINE AI 智慧初診與工時報價、剪染燙分段插單、美甲圖鑑與沖水鏡位防撞。
             </p>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-800 pt-2 border-t border-slate-100">
               <li class="flex items-center space-x-2">
-                <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
+                <Check class="w-4 h-4 text-rose-600 flex-shrink-0" />
                 <span>LINE AI 諮詢助理（前期溝通免人工）</span>
               </li>
               <li class="flex items-center space-x-2">
-                <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
+                <Check class="w-4 h-4 text-rose-600 flex-shrink-0" />
                 <span>燙染靜置空檔智慧插單剪洗</span>
               </li>
               <li class="flex items-center space-x-2">
-                <Check class="w-4 h-4 text-pink-600 flex-shrink-0" />
+                <Check class="w-4 h-4 text-rose-600 flex-shrink-0" />
                 <span>鏡位、沖水台與美甲桌多設施防撞</span>
               </li>
             </ul>
@@ -110,7 +110,7 @@
           <div class="pt-4">
             <router-link
               to="/solutions/beauty"
-              class="block w-full py-3 rounded-xl bg-pink-50 hover:bg-pink-100 text-pink-700 font-bold text-sm text-center border border-pink-200 transition-colors"
+              class="block w-full py-3 rounded-xl bg-rose-50 hover:bg-rose-100/80 text-rose-800 font-bold text-sm text-center border border-rose-200/80 transition-colors"
             >
               搶先登記早鳥體驗 &rarr;
             </router-link>

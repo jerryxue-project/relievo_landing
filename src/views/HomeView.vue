@@ -6,7 +6,7 @@
     <!-- 1. Core Features Highlights (特色介紹專注區) -->
     <FeatureShowcase />
 
-    <!-- 3. Pain Points vs. Relievo Solution Comparison Matrix -->
+    <!-- 3. Pain Points vs. Relivo Solution Comparison Matrix -->
     <section class="py-14 sm:py-20 bg-slate-50 border-y border-slate-200/80">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
         <div class="text-center max-w-3xl mx-auto space-y-3">
@@ -14,7 +14,7 @@
             Pain Points & Value
           </span>
           <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            傳統白板 vs. Relievo 智慧系統
+            傳統白板 vs. Relivo 智慧系統
           </h2>
           <p class="text-sm sm:text-base text-slate-600">
             不改變店內既有規矩，系統自動適應您的門市流程
@@ -48,14 +48,14 @@
             </ul>
           </div>
 
-          <!-- Relievo Modern Side -->
+          <!-- Relivo Modern Side -->
           <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-brand-500 shadow-md space-y-4 relative overflow-hidden">
             <div class="absolute top-0 right-0 bg-brand-600 text-white text-xs font-black px-4 py-1 rounded-bl-xl uppercase tracking-wider">
               推薦升級
             </div>
             <div class="flex items-center space-x-2.5 text-brand-700 font-black text-lg sm:text-xl pb-3 border-b border-brand-100">
               <CheckCircle2 class="w-6 h-6 text-brand-600 flex-shrink-0" />
-              <span>Relievo 睿舒智慧排程系統</span>
+              <span>Relivo 睿沃智慧排程系統</span>
             </div>
             <ul class="space-y-3.5 text-sm sm:text-base text-slate-800">
               <li class="flex items-start space-x-2.5">
@@ -109,7 +109,7 @@
             @click="isDemoModalOpen = true"
             class="px-8 py-4 rounded-2xl bg-white text-brand-700 hover:bg-brand-50 font-black text-base sm:text-lg shadow-xl transition-all transform active:scale-95 cursor-pointer"
           >
-            免費預約專人演示 & 試用
+            免費預約專人演示
           </button>
         </div>
       </div>

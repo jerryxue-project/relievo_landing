@@ -7,7 +7,7 @@
           ROI Calculator
         </span>
         <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          試算 Relievo 為您的門市<br /><span class="text-brand-600">每月創造的營收與工時效益</span>
+          試算 Relivo 為您的門市<br /><span class="text-brand-600">每月創造的營收與工時效益</span>
         </h2>
         <p class="text-sm sm:text-base text-slate-600">
           拖動滑桿輸入門市規模，即時預估排程最佳化帶來的真實回報。

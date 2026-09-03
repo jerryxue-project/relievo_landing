@@ -4,7 +4,7 @@
       <!-- Section Header -->
       <div class="text-center max-w-3xl mx-auto space-y-3">
         <span class="text-xs sm:text-sm font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3.5 py-1.5 rounded-full border border-brand-200">
-          Why Relievo · 零學習門檻
+          Why Relivo · 零學習門檻
         </span>
         <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
           為什麼養生館老闆與櫃檯，<br /><span class="text-brand-600">用過就回不去了？</span>

@@ -40,7 +40,7 @@
               💆
             </div>
             <div>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relievo Spa 按摩養生</h3>
+              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Spa 按摩養生</h3>
               <p class="text-xs sm:text-sm text-brand-600 font-bold mt-0.5">智慧排單與公平輪牌系統</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
@@ -85,7 +85,7 @@
               💅
             </div>
             <div>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relievo Beauty 美容美甲</h3>
+              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Beauty 美容美甲</h3>
               <p class="text-xs sm:text-sm text-pink-600 font-bold mt-0.5">作品集預約與座位排班</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
@@ -130,7 +130,7 @@
               🧘
             </div>
             <div>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relievo Studio 瑜珈健身</h3>
+              <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Relivo Studio 瑜珈健身</h3>
               <p class="text-xs sm:text-sm text-indigo-600 font-bold mt-0.5">團課名額與教練私教排課</p>
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">

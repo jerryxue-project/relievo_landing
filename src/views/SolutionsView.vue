@@ -6,10 +6,10 @@
         Solutions Hub
       </span>
       <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-        Relievo 多產業智慧解決方案矩陣
+        Relivo 多產業智慧解決方案矩陣
       </h1>
       <p class="text-slate-600 text-base max-w-2xl mx-auto leading-relaxed">
-        從單一門市到千店連鎖，Relievo 針對不同業態打造專屬排程與店務模組。
+        從單一門市到千店連鎖，Relivo 針對不同業態打造專屬排程與店務模組。
       </p>
     </div>
 
@@ -28,7 +28,7 @@
           </div>
           <h3 class="text-2xl font-extrabold text-white">未來系統擴充與 API 串接藍圖</h3>
           <p class="text-xs text-slate-400 leading-relaxed">
-            Relievo 採用現代微服務與 OpenAPI 架構，具備高度擴展性，能快速衍生至更多實體門市排程需求。
+            Relivo 採用現代微服務與 OpenAPI 架構，具備高度擴展性，能快速衍生至更多實體門市排程需求。
           </p>
         </div>
 

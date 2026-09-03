@@ -5,7 +5,7 @@
         Contact & Trial
       </span>
       <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-        預約 1 對 1 專人演示與 14 天免費試用
+        預約 1 對 1 專人演示
       </h1>
       <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
         填寫下方表單，我們的資深產品顧問將於 24 小時內與您聯繫，為您的門市安排專屬演示並開通測試帳號。
@@ -114,7 +114,7 @@
                 class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-extrabold shadow-lg shadow-brand-600/30 transition-all flex items-center justify-center space-x-2 cursor-pointer"
               >
                 <Sparkles class="w-4 h-4" />
-                <span>{{ isSubmitting ? '正在安排專人諮詢...' : '免費取得專人演示 & 14天試用帳號' }}</span>
+                <span>{{ isSubmitting ? '正在安排專人諮詢...' : '免費預約專人演示' }}</span>
               </button>
             </div>
           </form>

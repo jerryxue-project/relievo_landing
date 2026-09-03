@@ -6,7 +6,7 @@
           🧘 規劃擴充中 · 瑜珈健身方案
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-          Relievo Studio 瑜珈健身工作室<br /><span class="text-indigo-600">團體課程與教練私教智慧排課系統</span>
+          Relivo Studio 瑜珈健身工作室<br /><span class="text-indigo-600">團體課程與教練私教智慧排課系統</span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
           針對瑜珈、皮拉提斯、空中瑜珈與器械健身工作室設計。支援團課名額上限控管、候補名單自動遞補、教練私教與教室資源排班。

@@ -6,7 +6,7 @@
           💅 即將推出 · 早鳥預約體驗
         </span>
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-          Relievo Beauty 美容美甲沙龍<br /><span class="text-pink-600">設計師作品集預約與座位排班系統</span>
+          Relivo Beauty 美容美甲沙龍<br /><span class="text-pink-600">設計師作品集預約與座位排班系統</span>
         </h1>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
           針對美甲、美睫、紋繡與護膚沙龍量身打造。支援設計師個人作品集線上選單、座位與高階光療儀器排程，大幅降低棄單率。
@@ -48,7 +48,7 @@
 
       <!-- Early Access Box -->
       <div class="max-w-2xl mx-auto mt-12 bg-gradient-to-r from-pink-50 to-rose-50 rounded-3xl p-8 border border-pink-200 text-center space-y-4">
-        <h3 class="text-lg font-bold text-pink-900">成為首批 Relievo Beauty 早鳥體驗店家</h3>
+        <h3 class="text-lg font-bold text-pink-900">成為首批 Relivo Beauty 早鳥體驗店家</h3>
         <p class="text-xs text-pink-800 max-w-lg mx-auto">
           搶先登記的店家將享有上線首半年 5 折優惠，並由產品團隊提供專屬客製化功能與 1 對 1 導入支援。
         </p>

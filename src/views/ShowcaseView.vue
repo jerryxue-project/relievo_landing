@@ -14,7 +14,7 @@
           </div>
 
           <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            Relievo 睿舒智慧<br />
+            Relivo 睿沃<br />
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 via-teal-200 to-indigo-200">
               全方位店務排程中樞 · 系統完整樣貌
             </span>
@@ -240,7 +240,7 @@
             最快當天即可完成導入上線
           </h2>
           <p class="text-xs sm:text-sm text-slate-500">
-            由 Relievo 專屬顧問協助店內床位編號、師傅名冊與服務價目建置，櫃檯無痛接軌
+            由 Relivo 專屬顧問協助店內床位編號、師傅名冊與服務價目建置，櫃檯無痛接軌
           </p>
         </div>
 

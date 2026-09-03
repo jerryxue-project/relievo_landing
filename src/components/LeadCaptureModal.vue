@@ -188,11 +188,11 @@
                   class="w-full py-3.5 rounded-2xl bg-gradient-to-r from-brand-600 via-indigo-600 to-brand-700 hover:from-brand-500 hover:to-indigo-500 text-white text-sm font-black shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 transition-all flex items-center justify-center space-x-2 cursor-pointer transform active:scale-98"
                 >
                   <Sparkles class="w-4 h-4" />
-                  <span>{{ isSubmitting ? '正在安排專屬顧問...' : '立即免費取得專人演示 & 14天試用帳號' }}</span>
+                  <span>{{ isSubmitting ? '正在安排專屬顧問...' : '立即免費預約專人演示' }}</span>
                 </button>
                 <p class="text-[11px] text-center text-slate-400 mt-2.5 flex items-center justify-center space-x-1">
                   <span>🔒</span>
-                  <span>我們重視您的隱私，資料僅用於 Relievo 產品演示與專人聯繫。</span>
+                  <span>我們重視您的隱私，資料僅用於 Relivo 產品演示與專人聯繫。</span>
                 </p>
               </div>
             </form>
@@ -207,7 +207,7 @@
           <div>
             <h3 class="text-xl font-black text-slate-900">預約申請已順利送出！</h3>
             <p class="text-xs text-slate-600 mt-2 max-w-sm mx-auto leading-relaxed">
-              感謝您對 Relievo 睿舒智慧的關注！我們的產品專員將於 24 小時內與您聯繫，協助開通測試環境並安排線上即時演示。
+              感謝您對 Relivo 睿沃的關注！我們的產品專員將於 24 小時內與您聯繫，協助開通測試環境並安排線上即時演示。
             </p>
           </div>
 

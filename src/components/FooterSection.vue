@@ -9,7 +9,7 @@
               <Sparkles class="w-5 h-5 text-white" />
             </div>
             <div>
-              <span class="text-xl font-black text-white tracking-tight">Relievo 睿舒智慧</span>
+              <span class="text-xl font-black text-white tracking-tight">Relivo 睿沃</span>
               <p class="text-xs text-slate-400">現代化服務業排程與派工雲端平台 (SaaS)</p>
             </div>
           </div>
@@ -67,7 +67,7 @@
           <h4 class="text-xs font-bold text-white uppercase tracking-wider">聯絡與諮詢</h4>
           <ul class="space-y-2 text-xs text-slate-400">
             <li>客服專線：0800-888-999</li>
-            <li>業務諮詢：sales@relievo.tw</li>
+            <li>業務諮詢：sales@relivo.tw</li>
             <li>服務時間：週一至週五 09:30 ~ 18:30</li>
             <li>
               <router-link to="/contact" class="inline-block mt-2 px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs">
@@ -80,7 +80,7 @@
 
       <!-- Bottom Bar -->
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-        <p>© 2026 Relievo 睿舒智慧 (Relievo Dispatch). 版權所有 All Rights Reserved.</p>
+        <p>© 2026 Relivo 睿沃 (Relivo Dispatch). 版權所有 All Rights Reserved.</p>
         <div class="flex items-center space-x-6">
           <a href="#" class="hover:text-slate-400">服務條款</a>
           <a href="#" class="hover:text-slate-400">隱私權政策</a>

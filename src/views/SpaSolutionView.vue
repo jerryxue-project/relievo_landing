@@ -9,7 +9,7 @@
             <span class="text-xs font-bold text-emerald-800">現已全面上線 · 旗艦旗艦產品</span>
           </div>
           <h1 class="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-            Relievo Spa 按摩養生館<br /><span class="text-brand-600">智慧排程與師傅輪牌派工系統</span>
+            Relivo Spa 按摩養生館<br /><span class="text-brand-600">智慧排程與師傅輪牌派工系統</span>
           </h1>
           <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
             全台唯一真正解決「腳底/指壓雙輪牌公平性」、「男女師傅與勞點指定」、「複合套餐分段空間自動轉移」的專業級店務排程中樞。
@@ -61,7 +61,7 @@
     <!-- 6 Deep Highlights for Spa -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
       <div class="text-center space-y-2">
-        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">為什麼頂尖養生會館選擇 Relievo Spa？</h2>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">為什麼頂尖養生會館選擇 Relivo Spa？</h2>
         <p class="text-xs text-slate-500">深入了解專為按摩產業設計的 6 大極致細節</p>
       </div>
 

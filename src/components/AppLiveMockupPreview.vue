@@ -9,9 +9,9 @@
         <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
         <div class="hidden sm:flex items-center space-x-1.5 ml-3 bg-white px-3 py-1 rounded-lg border border-slate-200 text-[11px] font-mono text-slate-600 shadow-xs">
           <Lock class="w-3 h-3 text-emerald-600" />
-          <span>https://app.relievo.tw/dashboard</span>
+          <span>https://app.relivo.tw/dashboard</span>
           <span class="text-slate-300">|</span>
-          <span class="text-brand-600 font-bold">Relievo 睿舒智慧 v2.0</span>
+          <span class="text-brand-600 font-bold">Relivo 睿沃 v2.0</span>
         </div>
       </div>
 
@@ -53,7 +53,7 @@
             </div>
             <div>
               <div class="flex items-center space-x-2">
-                <span class="font-extrabold text-base text-slate-900 tracking-tight">Relievo 睿舒智慧</span>
+                <span class="font-extrabold text-base text-slate-900 tracking-tight">Relivo 睿沃</span>
                 <span class="text-[10px] px-2 py-0.5 rounded-full bg-brand-50 text-brand-700 font-semibold border border-brand-200">v2.0 SaaS 智慧排程</span>
               </div>
               <p class="text-[11px] text-slate-500">現代化按摩預約與智慧派工系統</p>

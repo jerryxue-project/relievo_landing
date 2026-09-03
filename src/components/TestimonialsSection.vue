@@ -23,7 +23,7 @@
               ★★★★★
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-              「以前客人要做腳底加指壓套餐，櫃檯光對空房和師傅就心算老半天還常撞房。Relievo 一秒分段自動排好，<strong class="text-slate-900 font-bold">翻床率整整提升 40%</strong>！」
+              「以前客人要做腳底加指壓套餐，櫃檯光對空房和師傅就心算老半天還常撞房。Relivo 一秒分段自動排好，<strong class="text-slate-900 font-bold">翻床率整整提升 40%</strong>！」
             </p>
           </div>
           <div class="flex items-center space-x-3 pt-3.5 border-t border-slate-100">
@@ -32,7 +32,7 @@
             </div>
             <div>
               <div class="font-bold text-slate-900 text-sm sm:text-base">陳總經理</div>
-              <div class="text-xs text-slate-500">台北 · 澄心足體舒活會館 (18位技師)</div>
+              <div class="text-xs text-slate-500">台北 · 澄心足體養生會館 (18位技師)</div>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
               ★★★★★
             </div>
             <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-              「以前人工排輪牌常被質疑不公。換了 Relievo 雙輪牌演算法，完工自動回隊尾，<strong class="text-slate-900 font-bold">大螢幕即時顯示順位，師傅徹底心服口服</strong>！」
+              「以前人工排輪牌常被質疑不公。換了 Relivo 雙輪牌演算法，完工自動回隊尾，<strong class="text-slate-900 font-bold">大螢幕即時顯示順位，師傅徹底心服口服</strong>！」
             </p>
           </div>
           <div class="flex items-center space-x-3 pt-3.5 border-t border-slate-100">
